@@ -2,16 +2,16 @@ local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))
 
 
 local Window = OrionLib:MakeWindow({
-    Name = "Private Gui By WHITE_BUBU",
+    Name = "Private Gui By Cle0n",
     HidePremium = false,
     SaveConfig = true,
-    ConfigFolder = "Private Gui By WHITE_BUBU"
+    ConfigFolder = "Private Gui By Cle0n"
 })
 
 print("Successfully executed.")
 
 OrionLib:MakeNotification({
-	Name = "Creator (WHITE_BUBU)",
+	Name = "Creator (Cle0n)",
 	Content = "Enjoy The Private Gui!",
 	Image = "rbxassetid://",
 	Time = 5
@@ -510,22 +510,46 @@ local Section = Tab:AddSection({
     Name = "Creator/Developer"
 })
 
-local Label = Tab:CreateLabel("Cle0n", 4483362458, Color3.fromRGB(255, 255, 255), false)
+local Button = Tab:CreateButton({
+   Name = "Cle0n",
+   Callback = function()
+   end,
+})
 
-local Label = Tab:CreateLabel("Team Cle0n", 4483362458, Color3.fromRGB(255, 255, 255), false)
+local Button = Tab:CreateButton({
+   Name = "Team Cle0n",
+   Callback = function()
+   end,
+})
 
 local Section = Tab:AddSection({
     Name = "Special Thanks"
 })
 
-local Label = Tab:CreateLabel("SIGMAZ", 4483362458, Color3.fromRGB(255, 255, 255), false)
+local Button = Tab:CreateButton({
+   Name = "gl00pkids",
+   Callback = function()
+   end,
+})
 
-local Label = Tab:CreateLabel("FancyKid", 4483362458, Color3.fromRGB(255, 255, 255), false)
+local Button = Tab:CreateButton({
+   Name = "FancyKid",
+   Callback = function()
+   end,
+})
 
-local Label = Tab:CreateLabel("gl00pkids", 4483362458, Color3.fromRGB(255, 255, 255), false)
+local Button = Tab:CreateButton({
+   Name = "SIGMAZ",
+   Callback = function()
+   end,
+})
 
 local Section = Tab:AddSection({
     Name = "The One Who Taught Me"
 })
 
-local Label = Tab:CreateLabel("SIGMAZ", 4483362458, Color3.fromRGB(255, 255, 255), false)
+local Button = Tab:CreateButton({
+   Name = "SIGMAZ",
+   Callback = function()
+   end,
+})
