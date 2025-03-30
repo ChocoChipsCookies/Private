@@ -510,46 +510,22 @@ local Section = Tab:AddSection({
     Name = "Creator/Developer"
 })
 
-Tab:AddButton({
-    Name = "Cle0n",
-    Callback = function()
-  end    
-})
+local Label = Tab:CreateLabel("Cle0n", 4483362458, Color3.fromRGB(255, 255, 255), false)
 
-Tab:AddButton({
-    Name = "Team Cle0n",
-    Callback = function()
-  end    
-})
+local Label = Tab:CreateLabel("Team Cle0n", 4483362458, Color3.fromRGB(255, 255, 255), false)
 
 local Section = Tab:AddSection({
     Name = "Special Thanks"
 })
 
-Tab:AddButton({
-    Name = "FancyKid",
-    Callback = function()
-  end    
-})
+local Label = Tab:CreateLabel("SIGMAZ", 4483362458, Color3.fromRGB(255, 255, 255), false)
 
-Tab:AddButton({
-    Name = "SIGMAZ",
-    Callback = function()
-  end    
-})
+local Label = Tab:CreateLabel("FancyKid", 4483362458, Color3.fromRGB(255, 255, 255), false)
 
-Tab:AddButton({
-    Name = "gl00pkids",
-    Callback = function()
-  end    
-})
+local Label = Tab:CreateLabel("gl00pkids", 4483362458, Color3.fromRGB(255, 255, 255), false)
 
 local Section = Tab:AddSection({
     Name = "The One Who Taught Me"
 })
 
-Tab:AddButton({
-    Name = "SIGMAZ",
-    Callback = function()
-  end    
-})
+local Label = Tab:CreateLabel("SIGMAZ", 4483362458, Color3.fromRGB(255, 255, 255), false)
