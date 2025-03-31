@@ -13,7 +13,7 @@ local Window = OrionLib:MakeWindow({
 print("Successfully executed.")
 
 OrionLib:MakeNotification({
-	Name = "Private Cookies 🍪 || Creator (WHITE_BUBU)",
+	Name = "Private Cookies 🍪 || Creator Message",
 	Content = "Enjoy The Private Gui!",
 	Image = "rbxassetid://",
 	Time = 7
@@ -28,6 +28,19 @@ local Tab = Window:MakeTab({
 Tab:AddLabel("Hello, " .. game.Players.LocalPlayer.Name.. " !, Wellcome to Private Version of Projects Cookies 🍪!")
 Tab:AddLabel("This is old Script,but it's still update!")
 Tab:AddLabel("This Script made by WHITE_BUBU")
+
+Tab:AddButton({
+    Name = "Join Discord Groups",
+    Callback = function()
+        setclipboard("Coming Soon")
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message",
+            Content = "Discord Groups it's still unavailable!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end    
+})
 
 local Tab = Window:MakeTab({
     Name = "Clients Admin",
@@ -561,7 +574,14 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-    Name = "Fuvv4",
+    Name = "Fuvv4_w1nnn",
     Callback = function()
-  end    
+        setclipboard("👉Little❤️Cookies👈")
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies || Creator Message",
+            Content = "👉Little❤️Cookies👈",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end    
 })
