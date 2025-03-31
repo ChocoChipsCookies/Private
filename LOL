@@ -1,10 +1,10 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DenDenZZZ/Orion-UI-Library/refs/heads/main/source')))()
 
 local Window = OrionLib:MakeWindow({
-    Name = "Private Gui By Cle0n",
+    Name = "Example",
     HidePremium = false,
-    SaveConfig = false,
-    ConfigFolder = "Private Gui By Cle0n"
+    SaveConfig = false,           
+    ConfigFolder = nil,       
     IntroEnabled = true,
     IntroText = "Welcome, " .. game.Players.LocalPlayer.Name,
     IntroIcon = "rbxassetid://82778010291487"
