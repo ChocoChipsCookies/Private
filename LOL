@@ -544,12 +544,6 @@ Tab:AddButton({
   end    
 })
 
-AddButton({
-    Name = "Team Cookies 🍪",
-    Callback = function()
-  end    
-})
-
 Tab:AddButton({
     Name = "Fuvv4_w1nnn",
     Callback = function()
