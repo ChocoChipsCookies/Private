@@ -25,7 +25,7 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 })
 
-Tab:AddLabel("Hello, " .. game.Players.LocalPlayer.Name.." !, Wellcome to Private Version of Projects Cookies 🍪!")
+Tab:AddLabel("Hello, " .. game.Players.LocalPlayer.Name.. " !, Wellcome to Private Version of Projects Cookies 🍪!")
 Tab:AddLabel("This is old Script,but it's still update!")
 Tab:AddLabel("This Script made by WHITE_BUBU")
 
@@ -527,6 +527,7 @@ Tab:AddButton({
     Callback = function()
   end    
 })
+
 AddButton({
     Name = "Team Cookies 🍪",
     Callback = function()
@@ -556,11 +557,11 @@ Tab:AddButton({
 })
 
 local Section = Tab:AddSection({
-    Name = "The One Who Taught Me"
+    Name = "The One Who Make Me Smile Every time"
 })
 
 Tab:AddButton({
-    Name = "SIGMAZ",
+    Name = "Fuvv4",
     Callback = function()
   end    
 })
