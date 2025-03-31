@@ -550,32 +550,6 @@ AddButton({
   end    
 })
 
-local Section = Tab:AddSection({
-    Name = "Special Thanks"
-})
-
-Tab:AddButton({
-    Name = "FancyKid",
-    Callback = function()
-  end    
-})
-
-Tab:AddButton({
-    Name = "SIGMAZ",
-    Callback = function()
-  end    
-})
-
-Tab:AddButton({
-    Name = "gl00pkids",
-    Callback = function()
-  end    
-})
-
-local Section = Tab:AddSection({
-    Name = "The One Who Make Me Smile Every time"
-})
-
 Tab:AddButton({
     Name = "Fuvv4_w1nnn",
     Callback = function()
