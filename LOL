@@ -31,6 +31,10 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 })
 
+Tab:AddLabel("Hello There!,Thanks for using our Script!")
+Tab:AddLabel("This is old Script,but it's still update!")
+Tab:AddLabel("This Script made by WHITE_BUBU")
+
 local Section = Tab:AddSection({
     Name = "Admins"
 })
