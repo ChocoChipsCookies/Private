@@ -34,14 +34,14 @@ local Section = Tab:AddSection({
 Tab:AddLabel("Hello, " .. game.Players.LocalPlayer.Name.. " !")
 Tab:AddLabel("Wellcome to Private Version of Projects Cookies 🍪!")
 Tab:AddLabel("This is old Script,but it's still update!")
-Tab:AddLabel("This Script made by WHITE_BUBU")
+Tab:AddLabel("This Script made by WHITE_BUBU")
 
 Tab:AddButton({
-    Name = "Join Discord Groups",
+    Name = "Join Discord Groups",
     Callback = function()
         setclipboard("Coming Soon")
         OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message",
+            Name = "Projects Cookies 🍪 || Creator Message",
             Content = "Discord Groups it's still unavailable!",
             Image = "rbxassetid://4483345998",
             Time = 5
@@ -545,11 +545,11 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-    Name = "WHITE_BUBU",
+    Name = "WHITE_BUBU",
     Callback = function()
         setclipboard("R.I.P RED_BUBU...")
         OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message",
+            Name = "Projects Cookies 🍪 || Creator Message",
             Content = "R.I.P RED_BUBU...",
             Image = "rbxassetid://4483345998",
             Time = 5
@@ -564,11 +564,11 @@ local Section = Tab:AddSection({
 
 
 Tab:AddButton({
-    Name = "Fuvv4_w1nnn",
+    Name = "Fuvv4_w1nnn",
     Callback = function()
         setclipboard("👉 Little ❤️ Cookies 👈")
         OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message",
+            Name = "Projects Cookies 🍪 || Creator Message",
             Content = "👉 Little ❤️ Cookies 👈",
             Image = "rbxassetid://4483345998",
             Time = 5
