@@ -25,7 +25,8 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 })
 
-Tab:AddLabel("Hello, " .. game.Players.LocalPlayer.Name.. " !, Wellcome to Private Version of Projects Cookies 🍪!")
+Tab:AddLabel("Hello, " .. game.Players.LocalPlayer.Name.. " !")
+Tab:AddLabel("Wellcome to Private Version of Projects Cookies 🍪!")
 Tab:AddLabel("This is old Script,but it's still update!")
 Tab:AddLabel("This Script made by WHITE_BUBU")
 
@@ -419,15 +420,16 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Cle0n Hint",
+    Name = "Cookies 🍪 Hint",
     Callback = function()
         local H = Instance.new("Hint", game.Workspace)
 H.Parent = game.Workspace
-H.Text = ("Team Cle0n Join Today!!!")
+H.Text = ("Team Cookies 🍪 Joined Today!")
 wait(1000)
 H:Destroy(1000)
   end    
 })
+
 
 local Tab = Window:MakeTab({
     Name = "Inject Logo",
@@ -524,6 +526,7 @@ Tab:AddButton({
         loadstring(game:HttpGet(('https://pastebin.com/raw/PGNjtZe0')))()
   end    
 })
+
 
 local Tab = Window:MakeTab({
     Name = "Credits",
