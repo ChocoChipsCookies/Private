@@ -553,12 +553,12 @@ AddButton({
 Tab:AddButton({
     Name = "Fuvv4_w1nnn",
     Callback = function()
-        setclipboard("👉Little❤️Cookies👈")
+        setclipboard("👉 Little ❤️ Cookies 👈")
         OrionLib:MakeNotification({
-            Name = "Projects Cookies || Creator Message",
-            Content = "👉Little❤️Cookies👈",
+            Name = "Projects Cookies 🍪 || Creator Message",
+            Content = "👉 Little ❤️ Cookies 👈",
             Image = "rbxassetid://4483345998",
             Time = 5
-          })
-       end
-     })
+        })
+    end    
+})
