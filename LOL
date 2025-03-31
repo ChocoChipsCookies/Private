@@ -3,8 +3,8 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Den
 local Window = OrionLib:MakeWindow({
     Name = "Projects Cookies 🍪 || Private Version",
     HidePremium = false,
-    SaveConfig = false,           
-    ConfigFolder = nil,       
+    SaveConfig = true,           
+    ConfigFolder = Projects Cookies 🍪,       
     IntroEnabled = true,
     IntroText = "Projects Cookies 🍪 || Private Version",
     IntroIcon = "rbxassetid://82778010291487"
@@ -24,6 +24,12 @@ local Tab = Window:MakeTab({
     Icon = "rbxassetid://140587862516598",
     PremiumOnly = false
 })
+
+
+local Section = Tab:AddSection({
+    Name = "Info"
+})
+
 
 Tab:AddLabel("Hello, " .. game.Players.LocalPlayer.Name.. " !")
 Tab:AddLabel("Wellcome to Private Version of Projects Cookies 🍪!")
