@@ -1,22 +1,22 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DenDenZZZ/Orion-UI-Library/refs/heads/main/source')))()
 
 local Window = OrionLib:MakeWindow({
-    Name = "Example",
+    Name = "Projects Cookies 🍪 || Private Version",
     HidePremium = false,
     SaveConfig = false,           
     ConfigFolder = nil,       
     IntroEnabled = true,
-    IntroText = "Welcome, " .. game.Players.LocalPlayer.Name,
+    IntroText = "Projects Cookies 🍪 || Private Version",
     IntroIcon = "rbxassetid://82778010291487"
 })
 
 print("Successfully executed.")
 
 OrionLib:MakeNotification({
-	Name = "Creator (WHITE_BUBU)",
+	Name = "Private Cookies 🍪 || Creator (WHITE_BUBU)",
 	Content = "Enjoy The Private Gui!",
 	Image = "rbxassetid://",
-	Time = 5
+	Time = 7
 })
 
 local Tab = Window:MakeTab({
@@ -25,7 +25,7 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 })
 
-Tab:AddLabel("Hello, " .. game.Players.LocalPlayer.Name.." !,Thanks for using our Script!")
+Tab:AddLabel("Hello, " .. game.Players.LocalPlayer.Name.." !, Wellcome to Private Version of Projects Cookies 🍪!")
 Tab:AddLabel("This is old Script,but it's still update!")
 Tab:AddLabel("This Script made by WHITE_BUBU")
 
@@ -523,13 +523,12 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-    Name = "Cle0n",
+    Name = "WHITE_BUBU",
     Callback = function()
   end    
 })
-
-Tab:AddButton({
-    Name = "Team Cle0n",
+AddButton({
+    Name = "Team Cookies 🍪",
     Callback = function()
   end    
 })
