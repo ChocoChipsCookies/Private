@@ -1,19 +1,19 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DenDenZZZ/Orion-UI-Library/refs/heads/main/source')))()
 
 local Window = OrionLib:MakeWindow({
-    Name = "Projects Cookies 🍪 || Private Version",
+    Name = "Projects Cookies 🍪 || Private Version🧑‍💻",
     HidePremium = false,
     SaveConfig = false,           
     ConfigFolder = nil,       
     IntroEnabled = true,
-    IntroText = "Projects Cookies 🍪 || Private Version",
+    IntroText = "Projects Cookies 🍪 || Private Version🧑‍💻",
     IntroIcon = "rbxassetid://14208295787"
 })
 
 print("Successfully executed.")
 
 OrionLib:MakeNotification({
-	Name = "Private Cookies 🍪 || Creator Message",
+	Name = "Private Cookies 🍪 || Creator Message🧑‍💻",
 	Content = "Enjoy The Private Gui!",
 	Image = "rbxassetid://",
 	Time = 7
@@ -31,17 +31,29 @@ local Section = Tab:AddSection({
 })
 
 
-Tab:AddLabel("Hello, " .. game.Players.LocalPlayer.Name.. " !")
-Tab:AddLabel("Wellcome to Private Version of Projects Cookies 🍪!")
+Tab:AddParagraph("Hello, " .. game.Players.LocalPlayer.Name.. " !,","Wellcome to Private Version of Projects Cookies 🍪!")
 Tab:AddLabel("This is old Script,but it's still update!")
-Tab:AddLabel("This Script made by WHITE_BUBU")
+Tab:AddLabel("This Script Made by WHITE_BUBU,And Team Cookies🍪!")
 
 Tab:AddButton({
-    Name = "Join Discord Groups",
+    Name = "Discord Groups",
     Callback = function()
         setclipboard("Coming Soon")
         OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message",
+            Name = "Projects Cookies 🍪 || Creator Message🧑‍💻",
+            Content = "YouTube Account it's still unavailable!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "YouTube",
+    Callback = function()
+        setclipboard("Coming Soon")
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🧑‍💻",
             Content = "Discord Groups it's still unavailable!",
             Image = "rbxassetid://4483345998",
             Time = 5
@@ -540,17 +552,38 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 })
 
+
 local Section = Tab:AddSection({
     Name = "Creator/Developer"
 })
+
 
 Tab:AddButton({
     Name = "WHITE_BUBU",
     Callback = function()
         setclipboard("R.I.P RED_BUBU...")
         OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message",
+            Name = "Projects Cookies 🍪 || Creator Message🧑‍💻",
             Content = "R.I.P RED_BUBU...",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end    
+})
+
+
+local Section = Tab:AddSection({
+    Name = "Special Thanks!"
+})
+
+
+Tab:AddButton({
+    Name = "Team Cookies🍪",
+    Callback = function()
+        setclipboard("❤️Thanks You For Support Me❤️!")
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🧑‍💻",
+            Content = "❤️Thanks You For Support Me❤️!",
             Image = "rbxassetid://4483345998",
             Time = 5
         })
@@ -568,7 +601,7 @@ Tab:AddButton({
     Callback = function()
         setclipboard("👉 Little ❤️ Cookies 👈")
         OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message",
+            Name = "Projects Cookies 🍪 || Creator Message🧑‍💻",
             Content = "👉 Little ❤️ Cookies 👈",
             Image = "rbxassetid://4483345998",
             Time = 5
