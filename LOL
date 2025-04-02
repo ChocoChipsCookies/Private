@@ -151,7 +151,7 @@ Tab:AddSlider({
 	Default = 16,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
-	ValueName = "Type Here!",
+	ValueName = "Set Here!",
 	Callback = function(Value)
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
 	end    
@@ -159,28 +159,28 @@ Tab:AddSlider({
 
 Tab:AddSlider({
 	Name = "Set JumpPower",
-	Min = 16,
-	Max = 300,
-	Default = 16,
+	Min = 45,
+	Max = 500,
+	Default = 45,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
-	ValueName = "Type Here!",
+	ValueName = "Set Here!",
 	Callback = function(Value)
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
 	end    
 })
 
-Tab:AddButton({
-    Name = "Infinite Jump",
-    Callback = function()
-        game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
-    end    
+local Default_Disable = false;
+Tab:AddToggle({
+	Name = "Infinite Jump",
+	Default = false,
+	Callback = function(Value)
+        if Default_Disable == false then
+            Default_Disable = true;
+            return;
+        end
+        ToggleInfJump(Value);
+	end    
 })
 
 -- Script --
