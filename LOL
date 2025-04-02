@@ -31,10 +31,16 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("Hello, " .. game.Players.LocalPlayer.Name.. " !,","Wellcome to Private Version of Projects Cookies 🍪!")
-Tab:AddParagraph("UserName : " .. game.Players.LocalPlayer.Name.. " ,","Display Name : ???")
-Tab:AddParagraph("Account Age/Day : ???,","Account ID : ???")
-Tab:AddParagraph("Correct Games : ???,","Correct Games ID : ???")
-Tab:AddParagraph("Total Players : ???,","Players Detected : ???")
+Tab:AddLabel("--> Game Information <--")
+Tab:AddParagraph("Username : " .. game.Players.LocalPlayer.Name.. " ","Display Name : ???")
+Tab:AddParagraph("Account Age/Day : ???","Account ID : ???")
+Tab:AddParagraph("Correct Games : ???","Correct Games ID : ???")
+Tab:AddParagraph("Players Total : ???","Players Detected : ???")
+
+local Section = Tab:AddSection({
+    Name = "--> Note <--"
+})
+
 Tab:AddParagraph("This Script Made by WHITE_BUBU!,","And Team Cookies🍪!")
 
 Tab:AddButton({
