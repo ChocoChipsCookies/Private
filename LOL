@@ -33,7 +33,7 @@ local Section = Tab:AddSection({
 
 Tab:AddParagraph("Hello, " .. game.Players.LocalPlayer.Name.. " !,","Wellcome to Private Version of Projects Cookies 🍪!")
 Tab:AddLabel("This is old Script,but it's still update!")
-Tab:AddLabel("This Script Made by WHITE_BUBU,And Team Cookies🍪!")
+Tab:AddParagraph("This Script Made by WHITE_BUBU!,","And Team Cookies🍪!")
 
 Tab:AddButton({
     Name = "Discord Groups",
@@ -61,6 +61,7 @@ Tab:AddButton({
     end    
 })
 
+
 local Tab = Window:MakeTab({
     Name = "Clients Admin",
     Icon = "rbxassetid://1",
@@ -68,41 +69,72 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-    Name = "Admins"
-})
-
-local playerName = game.Players.LocalPlayer.Name
-
-Tab:AddButton({
-	Name = "rocky2u admin",
-	Callback = function()
-      		str_srce = "14682300022" loadstring(game:GetObjects("rbxassetid://"..str_srce)[1].Source)()
-  	end    
+    Name = "Admin Panel"
 })
 
 Tab:AddButton({
     Name = "Infinite Yield",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-  end    
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
 })
-
 
 Tab:AddButton({
     Name = "Nameless Admin",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
-  end    
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
 })
 
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Rocky2u Admin",
+    Callback = function()
+        str_srce = "14682300022" loadstring(game:GetObjects("rbxassetid://"..str_srce)[1].Source)()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "SSP (Epic)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagnumIceCream/SecretServicePanel/6fefdf531e86404fb41b7812e7e84b69c7ea728f/ShakesSSP"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+
 local Tab = Window:MakeTab({
-    Name = "Hubs",
+    Name = "Hub",
     Icon = "rbxassetid://",
     PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-    Name = "Hubs"
+    Name = "Hub"
 })
 
 Tab:AddButton({
@@ -133,14 +165,15 @@ Tab:AddButton({
   end    
 })
 
+
 local Tab = Window:MakeTab({
-    Name = "Executors",
+    Name = "Executor",
     Icon = "rbxassetid://",
     PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-    Name = "Executors (not fe bypasser)"
+    Name = "Executor (not fe bypasser)"
 })
 
 Tab:AddButton({
@@ -151,7 +184,7 @@ Tab:AddButton({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
             Image = "rbxassetid://4483345998",
-            Time = 5
+            Time = 3
         })
     end    
 })
@@ -164,7 +197,7 @@ Tab:AddButton({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
             Image = "rbxassetid://4483345998",
-            Time = 5
+            Time = 3
         })
     end    
 })
@@ -177,7 +210,33 @@ Tab:AddButton({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
             Image = "rbxassetid://4483345998",
-            Time = 5
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "RC7 Require",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/CVecVrT1')))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Ro-xploit 6.0",
+    Callback = function()
+        loadstring(game:GetObjects("rbxassetid://288646117")[1].Source)()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
         })
     end    
 })
@@ -190,7 +249,7 @@ Tab:AddButton({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
             Image = "rbxassetid://4483345998",
-            Time = 5
+            Time = 3
         })
     end    
 })
@@ -203,7 +262,7 @@ Tab:AddButton({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
             Image = "rbxassetid://4483345998",
-            Time = 5
+            Time = 3
         })
     end    
 })
@@ -215,10 +274,24 @@ Tab:AddButton({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
             Image = "rbxassetid://4483345998",
-            Time = 5
+            Time = 3
         })
     end    
 })
+
+Tab:AddButton({
+    Name = "ExSer SS",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gitluau/luauexser/refs/heads/main/pHzp8uG1PO962o6qucrlP3AJy17eV3B.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
 Tab:AddButton({
     Name = "SuperSide SS",
     Callback = function()
@@ -227,7 +300,7 @@ Tab:AddButton({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
             Image = "rbxassetid://4483345998",
-            Time = 5
+            Time = 3
         })
     end    
 })
@@ -240,7 +313,7 @@ Tab:AddButton({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
             Image = "rbxassetid://4483345998",
-            Time = 5
+            Time = 3
         })
     end    
 })
@@ -271,37 +344,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "SSP",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagnumIceCream/SecretServicePanel/6fefdf531e86404fb41b7812e7e84b69c7ea728f/ShakesSSP"))()
-  end    
-})
-
-Tab:AddButton({
-    Name = "Ro-xploit 6.0",
-    Callback = function()
-        loadstring(game:GetObjects("rbxassetid://288646117")[1].Source)()
-  end    
-})
-
-Tab:AddButton({
-	Name = "ExSer SS",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/gitluau/luauexser/refs/heads/main/pHzp8uG1PO962o6qucrlP3AJy17eV3B.lua"))()
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Obunga Jumpscare",
 	Callback = function()
       		loadstring(game:HttpGet(('https://pastebin.com/raw/nLJkW0s1')))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "RC7 Require",
-	Callback = function()
-      		loadstring(game:HttpGet(('https://pastebin.com/raw/CVecVrT1')))()
   	end    
 })
 
@@ -531,7 +576,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-    Name = "Inject Something"
+    Name = "Inject Something (LOL)"
 })
 
 Tab:AddButton({
@@ -542,7 +587,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Inject Sadrc7 logo",
+	Name = "Inject Sadrc7 Logo",
 	Callback = function()
       		loadstring(game:HttpGet(('https://pastebin.com/raw/Gf5qPQbV')))()
   	end    
@@ -551,51 +596,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Inject Project Ligma",
     Callback = function()
-        local gui = Instance.new("ScreenGui")
-gui.Name = "executor"
-gui.Parent = game.CoreGui
-
-local lel = Instance.new("ImageLabel")
-lel.Size = UDim2.new(0.0, 100, 0.0, 100)
-lel.Position = UDim2.new(-0.127000004, 0, 0.407999992, 0)
-lel.BackgroundColor3 = Color3.new(0, 0, 0)
-lel.ImageColor3 = Color3.new(1, 1, 1)
-lel.Image = "rbxassetid://7256706293"
-lel.ImageTransparency = 0
-lel.Parent = gui
-
-lel.BackgroundTransparency = 1 
-
-local Ring = Instance.new("ImageLabel")
-Ring.Size = UDim2.new(1.0, 0, 1.0, 0)
-Ring.Position = UDim2.new(0.0, 0, 0.0, 0)
-Ring.BackgroundColor3 = Color3.new(0, 0, 0)
-Ring.ImageColor3 = Color3.new(1, 1, 1)
-Ring.Image = "rbxassetid://"
-Ring.ImageTransparency = 0
-Ring.Parent = lel
-
-Ring.BackgroundTransparency = 1
-
-local Orbit = Instance.new("ImageLabel")
-Orbit.Size = UDim2.new(0.0, 21, 0.0, 21)
-Orbit.Position = UDim2.new(0.0, 0, 0.0, 10)
-Orbit.BackgroundColor3 = Color3.new(0, 0, 0)
-Orbit.ImageColor3 = Color3.new(1, 1, 1)
-Orbit.Image = "rbxassetid://"
-Orbit.ImageTransparency = 0
-Orbit.Parent = Ring
-
-Orbit.BackgroundTransparency = 1
-
-lel:TweenPosition(UDim2.new(0.458, 0, 0.408, 0), "Out", "Linear", 0.4, false)
-wait(3)
-lel:TweenPosition(UDim2.new(0.0, 9, 0.0, 190), "Out", "Sine", 0.7, false)
-
-while wait() do
-Ring.Rotation = Ring.Rotation + 1
-Orbit.Rotation = Orbit.Rotation - 1
-end
+        
   end    
 })
 
