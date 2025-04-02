@@ -144,7 +144,31 @@ local Section = Tab:AddSection({
 Tab:AddParagraph("Username : " .. game.Players.LocalPlayer.Name.. " ","Display Name : ???")
 Tab:AddParagraph("Account Age/Day : ???","Account ID : ???")
 
+Tab:AddSlider({
+	Name = "Set WalkSpeed",
+	Min = 16,
+	Max = 300,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Type Here!",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+	end    
+})
 
+Tab:AddSlider({
+	Name = "Set JumpPower",
+	Min = 16,
+	Max = 300,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Type Here!",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
+	end    
+})
 
 -- Script --
 local Tab = Window:MakeTab({
