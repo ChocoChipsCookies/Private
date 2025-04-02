@@ -72,6 +72,8 @@ local Section = Tab:AddSection({
     Name = "Admin Panel"
 })
 
+local playerName = game.Players.LocalPlayer.Name
+
 Tab:AddButton({
     Name = "Infinite Yield",
     Callback = function()
@@ -97,8 +99,6 @@ Tab:AddButton({
         })
     end    
 })
-
-local playerName = game.Players.LocalPlayer.Name
 
 Tab:AddButton({
     Name = "Rocky2u Admin",
