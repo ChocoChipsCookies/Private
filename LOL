@@ -32,8 +32,6 @@ local Section = Tab:AddSection({
 
 Tab:AddParagraph("Hello, " .. game.Players.LocalPlayer.Name.. " !,","Wellcome to Private Version of Projects Cookies 🍪!")
 Tab:AddLabel("--> Game Information <--")
-Tab:AddParagraph("Username : " .. game.Players.LocalPlayer.Name.. " ","Display Name : ???")
-Tab:AddParagraph("Account Age/Day : ???","Account ID : ???")
 Tab:AddParagraph("Correct Games : ???","Correct Games ID : ???")
 Tab:AddParagraph("Players Total : ???","Players Detected : ???")
 
@@ -131,6 +129,22 @@ Tab:AddButton({
         })
     end    
 })
+
+
+local Tab = Window:MakeTab({
+    Name = "Players",
+    Icon = "rbxassetid://",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Players (Info/Setting)"
+})
+
+Tab:AddParagraph("Username : " .. game.Players.LocalPlayer.Name.. " ","Display Name : ???")
+Tab:AddParagraph("Account Age/Day : ???","Account ID : ???")
+
+
 
 -- Script --
 local Tab = Window:MakeTab({
