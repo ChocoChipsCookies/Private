@@ -1,5 +1,6 @@
+-- Orion Library --
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DenDenZZZ/Orion-UI-Library/refs/heads/main/source')))()
-
+-- Make Main Tab --
 local Window = OrionLib:MakeWindow({
     Name = "Projects Cookies 🍪 || Private Version🌐",
     HidePremium = false,
@@ -18,30 +19,31 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://",
 	Time = 7
 })
-
+-- Home --
 local Tab = Window:MakeTab({
     Name = "Home",
     Icon = "rbxassetid://140587862516598",
     PremiumOnly = false
 })
 
-
 local Section = Tab:AddSection({
     Name = "Info"
 })
 
-
 Tab:AddParagraph("Hello, " .. game.Players.LocalPlayer.Name.. " !,","Wellcome to Private Version of Projects Cookies 🍪!")
-Tab:AddLabel("This is old Script,but it's still update!")
+Tab:AddParagraph("UserName : " .. game.Players.LocalPlayer.Name.. " ,","Display Name : ???")
+Tab:AddParagraph("Account Age/Day : ???,","Account ID : ???")
+Tab:AddParagraph("Correct Games : ???,","Correct Games ID : ???")
+Tab:AddParagraph("Total Players : ???,","Players Detected : ???")
 Tab:AddParagraph("This Script Made by WHITE_BUBU!,","And Team Cookies🍪!")
 
 Tab:AddButton({
-    Name = "Discord Groups",
+    Name = "YouTube",
     Callback = function()
         setclipboard("Coming Soon")
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "YouTube Account it's still unavailable!",
+            Content = "YouTube Channel it's still unavailable!",
             Image = "rbxassetid://4483345998",
             Time = 5
         })
@@ -49,7 +51,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "YouTube",
+    Name = "Discord Groups",
     Callback = function()
         setclipboard("Coming Soon")
         OrionLib:MakeNotification({
@@ -61,7 +63,7 @@ Tab:AddButton({
     end    
 })
 
-
+-- Admin --
 local Tab = Window:MakeTab({
     Name = "Clients Admin",
     Icon = "rbxassetid://1",
@@ -124,7 +126,148 @@ Tab:AddButton({
     end    
 })
 
+-- Script --
+local Tab = Window:MakeTab({
+    Name = "Script",
+    Icon = "rbxassetid://",
+    PremiumOnly = false
+})
 
+local Section = Tab:AddSection({
+    Name = "Script (not fe bypasser)"
+})
+
+Tab:AddButton({
+    Name = "R15 To R6",
+    Callback = function()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-from-R15-to-R6-9639"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Cle0n Gui",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/kw5s7X1k')))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Obunga Jumpscare",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/nLJkW0s1')))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Shedletsky",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/mf3ykyBX"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Bomb Vest",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/seuA0Ldc')))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "C00l Gui",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MiRw3b/c00lgui-v3rx/main/c00lguiv3rx.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Mini C00l Gui",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/UPZCQ31W"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Lua Hammer",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Lua-Hammer-18934"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Skeleton (Skybox)",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/QhUwb6RB')))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Skeleton (Sound)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/fMue6VQU"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+-- Hub --
 local Tab = Window:MakeTab({
     Name = "Hub",
     Icon = "rbxassetid://",
@@ -163,7 +306,7 @@ Tab:AddButton({
   end    
 })
 
-
+-- Executor --
 local Tab = Window:MakeTab({
     Name = "Executor",
     Icon = "rbxassetid://",
@@ -329,148 +472,7 @@ Tab:AddButton({
     end    
 })
 
-
-local Tab = Window:MakeTab({
-    Name = "Script",
-    Icon = "rbxassetid://",
-    PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-    Name = "Script (not fe bypasser)"
-})
-
-Tab:AddButton({
-    Name = "R15 To R6",
-    Callback = function()
-        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-from-R15-to-R6-9639"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Cle0n Gui",
-    Callback = function()
-        loadstring(game:HttpGet(('https://pastebin.com/raw/kw5s7X1k')))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Obunga Jumpscare",
-    Callback = function()
-        loadstring(game:HttpGet(('https://pastebin.com/raw/nLJkW0s1')))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Shedletsky",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/mf3ykyBX"))();
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Bomb Vest",
-    Callback = function()
-        loadstring(game:HttpGet(('https://pastebin.com/raw/seuA0Ldc')))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "C00l Gui",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/MiRw3b/c00lgui-v3rx/main/c00lguiv3rx.lua"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Mini C00l Gui",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/UPZCQ31W"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Lua Hammer",
-    Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Lua-Hammer-18934"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Skeleton (Skybox)",
-    Callback = function()
-        loadstring(game:HttpGet(('https://pastebin.com/raw/QhUwb6RB')))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Skeleton (Sound)",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/fMue6VQU"))();
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
-    end    
-})
-
-
+-- Logo --
 local Tab = Window:MakeTab({
     Name = "Inject Logo",
     Icon = "rbxassetid://",
@@ -559,7 +561,7 @@ Tab:AddButton({
     end    
 })
 
-
+-- Credits --
 local Tab = Window:MakeTab({
     Name = "Credits",
     Icon = "rbxassetid://81359234640948",
