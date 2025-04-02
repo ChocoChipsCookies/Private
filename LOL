@@ -170,6 +170,19 @@ Tab:AddSlider({
 	end    
 })
 
+Tab:AddButton({
+    Name = "Infinite Jump",
+    Callback = function()
+        game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
 -- Script --
 local Tab = Window:MakeTab({
     Name = "Script",
