@@ -1,19 +1,19 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DenDenZZZ/Orion-UI-Library/refs/heads/main/source')))()
 
 local Window = OrionLib:MakeWindow({
-    Name = "Projects Cookies 🍪 || Private Version🧑‍💻",
+    Name = "Projects Cookies 🍪 || Private Version🌐",
     HidePremium = false,
     SaveConfig = false,           
     ConfigFolder = nil,       
     IntroEnabled = true,
-    IntroText = "Projects Cookies 🍪 || Private Version🧑‍💻",
+    IntroText = "Projects Cookies 🍪 || Private Version🌐",
     IntroIcon = "rbxassetid://14208295787"
 })
 
 print("Successfully executed.")
 
 OrionLib:MakeNotification({
-	Name = "Private Cookies 🍪 || Creator Message🧑‍💻",
+	Name = "Private Cookies 🍪 || Creator Message🌐",
 	Content = "Enjoy The Private Gui!",
 	Image = "rbxassetid://",
 	Time = 7
@@ -40,7 +40,7 @@ Tab:AddButton({
     Callback = function()
         setclipboard("Coming Soon")
         OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🧑‍💻",
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "YouTube Account it's still unavailable!",
             Image = "rbxassetid://4483345998",
             Time = 5
@@ -53,7 +53,7 @@ Tab:AddButton({
     Callback = function()
         setclipboard("Coming Soon")
         OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🧑‍💻",
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Discord Groups it's still unavailable!",
             Image = "rbxassetid://4483345998",
             Time = 5
@@ -144,32 +144,107 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-    Name = "KRNL Executor",
+    Name = "Delta Executor (JK)",
+    Callback = function()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Delta-Executor-J-O-K-E-7664"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Krnl Executor",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/wtfplayer/redemption/main/krnlnoui.lua"))()
-  end    
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Dominant Executor",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Dominant-executor-29479"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end    
 })
 
 Tab:AddButton({
     Name = "Stigma Ultimate",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/WW9zWhdA"))()
-  end    
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end    
 })
 
 Tab:AddButton({
     Name = "LALOL Hub (backdoor scanner and executor)",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script'))()
-  end    
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end    
+})
+Tab:AddButton({
+    Name = "Frakture SS (backdoor scanner and executor)",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastefy.app/edMe7Bwx/raw'))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end    
+})
+Tab:AddButton({
+    Name = "SuperSide SS",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/XxLXsqSE"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end    
 })
 
 Tab:AddButton({
-    Name = "Delta Executor",
+    Name = "SS Executor (Epic UI)",
     Callback = function()
-        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Delta-Executor-J-O-K-E-7664"))()
-  end    
+        loadstring(game:HttpGet("https://pastebin.com/raw/hWjiSwxt"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end    
 })
+
 
 local Tab = Window:MakeTab({
     Name = "Script",
@@ -563,7 +638,7 @@ Tab:AddButton({
     Callback = function()
         setclipboard("R.I.P RED_BUBU...")
         OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🧑‍💻",
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "R.I.P RED_BUBU...",
             Image = "rbxassetid://4483345998",
             Time = 5
@@ -582,7 +657,7 @@ Tab:AddButton({
     Callback = function()
         setclipboard("❤️Thanks You For Support Me❤️!")
         OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🧑‍💻",
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "❤️Thanks You For Support Me❤️!",
             Image = "rbxassetid://4483345998",
             Time = 5
@@ -601,7 +676,7 @@ Tab:AddButton({
     Callback = function()
         setclipboard("👉 Little ❤️ Cookies 👈")
         OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🧑‍💻",
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "👉 Little ❤️ Cookies 👈",
             Image = "rbxassetid://4483345998",
             Time = 5
