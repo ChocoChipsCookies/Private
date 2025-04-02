@@ -152,7 +152,7 @@ Tab:AddSlider({
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
 	ValueName = "Set Here!",
-	Callback = function(Value)
+	Callback = function(v)
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
 	end    
 })
@@ -165,7 +165,7 @@ Tab:AddSlider({
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
 	ValueName = "Set Here!",
-	Callback = function(Value)
+	Callback = function(v)
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
 	end    
 })
@@ -250,6 +250,19 @@ Tab:AddButton({
     Name = "Bomb Vest",
     Callback = function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/seuA0Ldc')))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Thomas Train (LOL)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/1j6VYUkW"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
