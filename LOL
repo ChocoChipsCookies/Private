@@ -229,6 +229,19 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "Polaria Lua",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/cqCsjPQr')))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Ro-xploit 6.0",
     Callback = function()
         loadstring(game:GetObjects("rbxassetid://288646117")[1].Source)()
@@ -330,128 +343,249 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "R15 to R6",
-	Callback = function()
-      		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-from-R15-to-R6-9639"))()
-  	end    
+    Name = "R15 To R6",
+    Callback = function()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-from-R15-to-R6-9639"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
 })
 
 Tab:AddButton({
     Name = "Cle0n Gui",
     Callback = function()
-       loadstring(game:HttpGet(('https://pastebin.com/raw/kw5s7X1k')))()
-  end    
+        loadstring(game:HttpGet(('https://pastebin.com/raw/kw5s7X1k')))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
 })
 
 Tab:AddButton({
-	Name = "Obunga Jumpscare",
-	Callback = function()
-      		loadstring(game:HttpGet(('https://pastebin.com/raw/nLJkW0s1')))()
-  	end    
+    Name = "Obunga Jumpscare",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/nLJkW0s1')))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
 })
 
 Tab:AddButton({
-	Name = "Shedletsky",
-	Callback = function()
-      		s = Instance.new("Sky")
-s.Name = "SKY"
-s.SkyboxBk = "http://www.roblox.com/asset/?id=172423468"
-s.SkyboxDn = "http://www.roblox.com/asset/?id=172423468"
-s.SkyboxFt = "http://www.roblox.com/asset/?id=172423468"
-s.SkyboxLf = "http://www.roblox.com/asset/?id=172423468"
-s.SkyboxRt = "http://www.roblox.com/asset/?id=172423468"
-s.SkyboxUp = "http://www.roblox.com/asset/?id=172423468"
-s.Parent = game.Lighting
-Spooky = Instance.new("Sound", game.Workspace)
-Spooky.Name = "Spooky"
-Spooky.SoundId = "rbxassetid://93240326658391"
-Spooky.Volume = 1
-Spooky.Looped = true
-Spooky.Pitch = 1
-Spooky:Play()
-local ID =18889618673 --id here
-t1 = "http://www.roblox.com/asset/?id=18343405871"
-t2 = "http://www.roblox.com/asset/?id=18343405871"
-t3 = "http://www.roblox.com/asset/?id=18343405871"
- 
-local p = game.Players:GetChildren()
-local w = game.Workspace:GetChildren()
- 
-for i,v in pairs(p) do
-pe = Instance.new("ParticleEmitter", v.Character.Head)
-pe.Texture = t3
-pe.VelocitySpread = 5
-end
-  	end    
+    Name = "Shedletsky",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/mf3ykyBX"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
 })
 
 Tab:AddButton({
     Name = "Bomb Vest",
     Callback = function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/seuA0Ldc')))()
-  end    
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
 })
 
 Tab:AddButton({
-	Name = "Polaria Lua",
-	Callback = function()
-      		loadstring(game:HttpGet(('https://pastebin.com/raw/cqCsjPQr')))()
-  	end    
-})
-
-Tab:AddButton({
-    Name = "C00lgui",
+    Name = "C00l Gui",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MiRw3b/c00lgui-v3rx/main/c00lguiv3rx.lua"))()
-  end    
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
 })
 
 Tab:AddButton({
-    Name = "Mini C00lgui",
+    Name = "Mini C00l Gui",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/UPZCQ31W"))()
-  end    
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
 })
 
 Tab:AddButton({
-    Name = "Bomb Vest",
+    Name = "Lua Hammer",
     Callback = function()
-
-  end    
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Lua-Hammer-18934"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
 })
 
 Tab:AddButton({
-	Name = "Lua Hammer",
-	Callback = function()
-      		loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Lua-Hammer-18934"))()
-  	end    
+    Name = "Skeleton (Skybox)",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/QhUwb6RB')))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
 })
 
 Tab:AddButton({
-	Name = "Skeleton Skybox",
-	Callback = function()
-      		loadstring(game:HttpGet(('https://pastebin.com/raw/QhUwb6RB')))()
-  	end    
+    Name = "Skeleton (Sound)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/fMue6VQU"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
 })
 
 Tab:AddButton({
-	Name = "Ronald McDonald's",
-	Callback = function()
-      		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Spooky-Scary-MCDonalds-Script-28270"))()
-  	end    
+    Name = "Ronald McDonald's",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Spooky-Scary-MCDonalds-Script-28270"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
 })
 
 Tab:AddButton({
-    Name = "Cookies 🍪 Hint",
+    Name = "Cookies 🍪 (Hint-2)",
     Callback = function()
         local H = Instance.new("Hint", game.Workspace)
 H.Parent = game.Workspace
-H.Text = ("Team Cookies 🍪 Joined Today!")
+H.Text = ("Team Cookies 🍪,Fix This Game👍")
 wait(1000)
 H:Destroy(1000)
-  end    
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
 })
 
+Tab:AddButton({
+    Name = "Cookies 🍪 (Hint-3)",
+    Callback = function()
+        local H = Instance.new("Hint", game.Workspace)
+H.Parent = game.Workspace
+H.Text = ("TEAM COOKIES 🍪,WAS HERE!")
+wait(1000)
+H:Destroy(1000)
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "RED_BUBU (Old Hint)",
+    Callback = function()
+        local H = Instance.new("Hint", game.Workspace)
+H.Parent = game.Workspace
+H.Text = ("RED_BUBU:MUHAHAHAH KIDS,U THINK I'M GONNA GET BANNED?,LMAOO!")
+wait(1000)
+H:Destroy(1000)
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "RED_BUBU (Old Hint-2)",
+    Callback = function()
+        local H = Instance.new("Hint", game.Workspace)
+H.Parent = game.Workspace
+H.Text = ("ENJOY THE WORLD TOUR HUH?,YEAH STUPPID LMAOOO!")
+wait(1000)
+H:Destroy(1000)
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "RED_BUBU (Old Hint-3)",
+    Callback = function()
+        local H = Instance.new("Hint", game.Workspace)
+H.Parent = game.Workspace
+H.Text = (WOMP-WOMP,AWWW LOOK AT MY CUTE DOG,SAY WOMP AGAIN,LOL!")
+wait(1000)
+H:Destroy(1000)
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "RED_BUBU (Old Hint-4)",
+    Callback = function()
+        local H = Instance.new("Hint", game.Workspace)
+H.Parent = game.Workspace
+H.Text = ("RED_BUBU:WELLCOME TO RED_BUBU WORLD TOUR,HAHAHAH LET'S GO TO THE HELL!")
+wait(1000)
+H:Destroy(1000)
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
 
 local Tab = Window:MakeTab({
     Name = "Inject Logo",
