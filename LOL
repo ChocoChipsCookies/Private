@@ -182,7 +182,7 @@ Tab:AddParagraph("⚠️ WARNING ⚠️","JUST CLICK 1 TIME,AND DON'T SPAM!!!")
 Tab:AddButton({
     Name = "Infinite Jump",
     Callback = function()
-        game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+        
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!!",
@@ -192,7 +192,7 @@ Tab:AddButton({
     end    
 })
 
-Tab:AddLabel("More")
+Tab:AddLabel("More Script Coming Soon...")
 
 -- Script --
 local Tab = Window:MakeTab({
