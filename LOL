@@ -173,18 +173,10 @@ Tab:AddSlider({
 Tab:AddToggle({
 	Name = "Infinite Jump",
 	Default = false,
-	Callback = function(Value)
-		game:GetService("UserInputService").JumpRequest:Connect(function(Value)
-		if infjumpenabled == true then
-			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState("Jumping")
+	Callback = function(V)
+		game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState("Jumping")
 	end    
 })
-
---[[
-Name = <string> - The name of the toggle.
-Default = <bool> - The default value of the toggle.
-Callback = <function> - The function of the toggle.
-]]
 
 -- Script --
 local Tab = Window:MakeTab({
