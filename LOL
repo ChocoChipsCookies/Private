@@ -2,12 +2,12 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DenDenZZZ/Orion-UI-Library/refs/heads/main/source')))()
 -- Make Main Tab --
 local Window = OrionLib:MakeWindow({
-    Name = "Projects Cookies 🍪 || Private Version🌐",
+    Name = "Projects Cookies 🍪 || Private Version 🌐",
     HidePremium = false,
     SaveConfig = false,           
     ConfigFolder = nil,       
     IntroEnabled = true,
-    IntroText = "Projects Cookies 🍪 || Private Version🌐",
+    IntroText = "Projects Cookies 🍪 || Private Version 🌐",
     IntroIcon = "rbxassetid://14208295787"
 })
 
@@ -221,6 +221,21 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "UTG || v3",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+
+
+Tab:AddButton({
     Name = "Obunga Jumpscare",
     Callback = function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/nLJkW0s1')))()
@@ -237,6 +252,32 @@ Tab:AddButton({
     Name = "Shedletsky",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/mf3ykyBX"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Server Finder",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RealBatu20/AI-Scripts-2025/refs/heads/main/LowServerFinderGUI.lua", true))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Virtual Keyboard",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/uuuuuuu/refs/heads/main/VirtualKeyboard.lua"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -440,6 +481,73 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "GEARZ Internal",
+    Callback = function()
+        loadstring(game:HttpGet("https://github.com/Tropxzz/GEARZ-/blob/main/Internal/main.lua?raw=true", true))() 
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Syntax Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/SyntaxRebornOfficial/main/SyntaxReborn", true))()
+        setclipboard("Key : Syntaxbesthub")
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed! (The Key In Your Clipboard)",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "SS Executor (Simple)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/hmwSe0Xz"))()
+        setclipboard("Key : Riceman90")
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed! (The Key In Your Clipboard)",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "",
+    Callback = function()
+        
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Alpha Executor",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PythonIsTheBests/Executor/refs/heads/main/Alpha_ExecutorV1"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Polaria Lua",
     Callback = function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/cqCsjPQr')))()
@@ -476,6 +584,10 @@ Tab:AddButton({
             Time = 3
         })
     end    
+})
+
+local Section = Tab:AddSection({
+    Name = "SS Executor (Only In Backdoor Games)"
 })
 
 Tab:AddButton({
