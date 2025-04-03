@@ -170,10 +170,6 @@ Tab:AddSlider({
 	end    
 })
 
-local Section = Tab:AddSection({
-    Name = "Infinite Jump"
-})
-
 -- Script --
 local Tab = Window:MakeTab({
     Name = "Script",
