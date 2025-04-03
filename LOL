@@ -233,7 +233,18 @@ Tab:AddButton({
     end    
 })
 
-
+Tab:AddButton({
+    Name = "Tr1ag3 Gui v1",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/BfE5y664"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
 
 Tab:AddButton({
     Name = "Obunga Jumpscare",
@@ -494,7 +505,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Syntax Hub",
+    Name = "Syntax Hub (Keyless)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/SyntaxRebornOfficial/main/SyntaxReborn", true))()
         setclipboard("Key : Syntaxbesthub")
@@ -502,29 +513,29 @@ Tab:AddButton({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed! (The Key In Your Clipboard)",
             Image = "rbxassetid://4483345998",
-            Time = 3
+            Time = 10
         })
     end    
 })
 
 Tab:AddButton({
-    Name = "SS Executor (Simple)",
+    Name = "SS Executor (Simple and Keyless)",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/hmwSe0Xz"))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/YLyCxtzE"))();
         setclipboard("Key : Riceman90")
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed! (The Key In Your Clipboard)",
             Image = "rbxassetid://4483345998",
-            Time = 3
+            Time = 10
         })
     end    
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "Alysse BETA",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://pastebin.com/raw/hmwSe0Xz"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -587,6 +598,23 @@ Tab:AddButton({
 })
 
 local Section = Tab:AddSection({
+    Name = "Executor (PC Only)"
+})
+
+Tab:AddButton({
+    Name = "AWP.GG (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/hCZBmTxj"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end    
+})
+
+local Section = Tab:AddSection({
     Name = "SS Executor (Only In Backdoor Games)"
 })
 
@@ -602,6 +630,7 @@ Tab:AddButton({
         })
     end    
 })
+
 Tab:AddButton({
     Name = "Frakture SS (backdoor scanner and executor)",
     Callback = function()
