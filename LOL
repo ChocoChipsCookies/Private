@@ -174,12 +174,13 @@ local Default_Disable = false;
 Tab:AddToggle({
 	Name = "Infinite Jump",
 	Default = false,
-	Callback = function(Value)
-        if Default_Disable == false then
-            Default_Disable = true;
-            return;
-        end
-        ToggleInfJump(Value);
+	Callback = function(v)
+        local InfiniteJumpEnabled = true
+        game:GetService("UserInputService").JumpRequest:connect(function(v)
+            if InfiniteJumpEnabled then
+                game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+            end
+        end)
 	end    
 })
 
