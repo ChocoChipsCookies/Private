@@ -454,7 +454,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "C00ZBDDKIDD Gui V2",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/Mp3VygG7"))()
         setclipboard("Key : C00ZBDDKIDDISBETTER")
