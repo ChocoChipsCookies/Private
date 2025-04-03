@@ -1,6 +1,3 @@
-       --[[Made by WHITE_BUBU]]--
---[[Special Thanks for Team Cookies 🍪]]--
-
 -- Orion Library --
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DenDenZZZ/Orion-UI-Library/refs/heads/main/source')))()
 -- Make Main Tab --
