@@ -420,11 +420,6 @@ Tab:AddButton({
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ImJosh66/Ab2rW/main/ORANGEX%20V5%20RELEASED%20ORANGEX%20ON%20TOP%20.txt"))()
         OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
     end    
 })
 
@@ -432,12 +427,6 @@ Tab:AddButton({
     Name = "EZ Hub",
     Callback = function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug42O/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
     end    
 })
 
@@ -445,12 +434,6 @@ Tab:AddButton({
     Name = "Script Hub v3",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/SCRIPTHUBV3/main/SCRIPTHUBV3", true))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
     end    
 })
 
@@ -458,12 +441,6 @@ Tab:AddButton({
     Name = "Ghost Hub",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
     end    
 })
 
@@ -471,12 +448,6 @@ Tab:AddButton({
     Name = "Void Hub",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidSkids/Key/main/README.md"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
     end    
 })
 
