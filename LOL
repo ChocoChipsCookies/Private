@@ -177,7 +177,6 @@ Tab:AddToggle({
 		game:GetService("UserInputService").JumpRequest:Connect(function(Value)
 		if infjumpenabled == true then
 			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState("Jumping")
-		end
 	end    
 })
 
