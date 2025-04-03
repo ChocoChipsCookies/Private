@@ -145,7 +145,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "Players",
-    Icon = "rbxassetid://",
+    Icon = "rbxassetid://7743875503",
     PremiumOnly = false
 })
 
@@ -184,8 +184,8 @@ Tab:AddSlider({
 
 Tab:AddToggle({
 	Name = "Infinite Jump",
-	Default = true,
-	Callback = function(V)
+	Default = false,
+	Callback = function()
 		game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState("Jumping")
 	end    
 })
@@ -312,7 +312,7 @@ Tab:AddButton({
 
 
 Tab:AddParagraph("-- > Gui <--","Not Fe Bypasser")
-Tab:AddLabel("Total Script : 7")
+Tab:AddLabel("Total Gui : 7")
 Tab:AddLabel("Status : 🟢")
 Tab:AddParagraph("Correct Gui Working : 7 🟢","Correct Gui Not Working : 0 🔴")
 
@@ -422,7 +422,7 @@ Tab:AddButton({
 
 
 Tab:AddParagraph("-- > Mini Gui <--","Not Fe Bypasser")
-Tab:AddLabel("Total Script : 2")
+Tab:AddLabel("Total Mini Gui : 2")
 Tab:AddLabel("Status : 🟢")
 Tab:AddParagraph("Correct Mini Gui Working : 2 🟢","Correct Mini Gui Not Working : 0 🔴")
 
@@ -695,9 +695,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > SS Executor <--","Only Work On Backdoor Games")
-Tab:AddLabel("Total Script : 5")
+Tab:AddLabel("Total SS Executor : 5")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Script Working : 5 🟢","Correct Script Not Working : 0 🔴")
+Tab:AddParagraph("Correct SS Executor Working : 5 🟢","Correct SS Executor Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "LALOL Hub (backdoor scanner and executor)",
