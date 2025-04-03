@@ -174,23 +174,6 @@ local Section = Tab:AddSection({
     Name = "Infinite Jump"
 })
 
-Tab:AddParagraph("⚠️ WARNING ⚠️","JUST CLICK 1 TIME,AND DON'T SPAM!!!")
-
-Tab:AddButton({
-    Name = "Infinite Jump",
-    Callback = function()
-        
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!!",
-            Image = "rbxassetid://4483345998",
-            Time = 5
-        })
-    end    
-})
-
-Tab:AddLabel("More Script Coming Soon...")
-
 -- Script --
 local Tab = Window:MakeTab({
     Name = "Script",
