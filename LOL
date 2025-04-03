@@ -1,3 +1,6 @@
+       --[[Made by WHITE_BUBU]]--
+--[[Special Thanks for Team Cookies 🍪]]--
+
 -- Orion Library --
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DenDenZZZ/Orion-UI-Library/refs/heads/main/source')))()
 -- Make Main Tab --
@@ -170,18 +173,26 @@ Tab:AddSlider({
 	end    
 })
 
-local Default_Disable = false;
-Tab:AddToggle({
-	Name = "Infinite Jump",
-	Default = false,
-	Callback = function(v)
-        local InfiniteJumpEnabled = true
-        game:GetService("UserInputService").JumpRequest:connect(function(v)
-            if InfiniteJumpEnabled then
-                game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
-            
-	end    
+local Section = Tab:AddSection({
+    Name = "Infinite Jump"
 })
+
+Tab:AddParagraph("⚠️ WARNING ⚠️","JUST CLICK 1 TIME,AND DON'T SPAM!!!")
+
+Tab:AddButton({
+    Name = "Infinite Jump",
+    Callback = function()
+        game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end    
+})
+
+Tab:AddLabel("More")
 
 -- Script --
 local Tab = Window:MakeTab({
