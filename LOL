@@ -179,8 +179,7 @@ Tab:AddToggle({
         game:GetService("UserInputService").JumpRequest:connect(function(v)
             if InfiniteJumpEnabled then
                 game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
-            end
-        end)
+            
 	end    
 })
 
