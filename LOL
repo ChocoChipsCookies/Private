@@ -216,14 +216,43 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Script <--","Not Fe Bypasser")
-Tab:AddLabel("Total Script : 8")
+Tab:AddLabel("Total Script : 9")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Script Working : 8 🟢","Correct Script Not Working : 0 🔴")
+Tab:AddParagraph("Correct Script Working : 9 🟢","Correct Script Not Working : 0 🔴")
+Tab:AddLabel("↓ To Use This Script, You Need To Use Keyboard! ↓")
+
+Tab:AddButton({
+    Name = "Virtual Keyboard",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/uuuuuuu/refs/heads/main/VirtualKeyboard.lua"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddLabel("↑ Virtual Keyboard ↑")
 
 Tab:AddButton({
     Name = "R15 To R6",
     Callback = function()
         loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-from-R15-to-R6-9639"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Grab Knife v4 (Epic)",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-Grab-Knife-V4-27394"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -263,6 +292,19 @@ Tab:AddButton({
     Name = "Thomas Train (LOL)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/1j6VYUkW"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Vereus (Epic)",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Roblox-VEREUS-monster-script-3746"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -449,14 +491,27 @@ Tab:AddButton({
 
 
 Tab:AddParagraph("-- > Mini Gui <--","Not Fe Bypasser")
-Tab:AddLabel("Total Mini Gui : 4")
+Tab:AddLabel("Total Mini Gui :5 ")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Mini Gui Working : 4 🟢","Correct Mini Gui Not Working : 0 🔴")
+Tab:AddParagraph("Correct Mini Gui Working : 5 🟢","Correct Mini Gui Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "Tr1ag3 Gui v1",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/BfE5y664"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Hardked v2",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/Harkedv2-script/main/Leaked-v2hardked"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
