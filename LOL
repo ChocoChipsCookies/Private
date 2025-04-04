@@ -618,19 +618,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "--[Achromatix v6]-- (Epic)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Quicksilver101/Achromatix-V6/refs/heads/main/Achromatix_V6-1.txt"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
     Name = "--[Achromatic v4]-- (Epic)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Bkproz/AchromaticEdit/refs/heads/main/Achro"))()
