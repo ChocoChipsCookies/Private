@@ -736,7 +736,7 @@ Tab:AddButton({
 
 -- Emote/Dance --
 local Tab = Window:MakeTab({
-    Name = "Hub",
+    Name = "Emote/Dance",
     Icon = "rbxassetid://",
     PremiumOnly = false
 })
