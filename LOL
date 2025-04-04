@@ -561,6 +561,65 @@ Tab:AddButton({
     end    
 })
 
+-- Games --
+local Tab = Window:MakeTab({
+    Name = "Games",
+    Icon = "rbxassetid://",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Games (New)"
+})
+
+Tab:AddParagraph("-- > Games <--","So Epic LOL")
+Tab:AddLabel("Total Games :1 ")
+Tab:AddLabel("Status : 🟢")
+Tab:AddParagraph("Correct Script Working :  🟢","Correct Script Not Working : 0 🔴")
+Tab:AddLabel("Just a Baseplate")
+
+Tab:AddButton({
+    Name = "Achromatix v6 (Epic)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Quicksilver101/Achromatix-V6/refs/heads/main/Achromatix_V6-1.txt"))()
+        setclipboard("-gh 48474294 451220849 2309346267 62724852 48474313 376527115 301818806 62234425 63690008")
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed! (The Hat ID, In Your Clipboard)",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = " (Epic)",
+    Callback = function()
+        
+        setclipboard("")
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed! (The Hat ID, In Your Clipboard)",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = " (Epic)",
+    Callback = function()
+        
+        setclipboard("")
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed! (The Hat ID, In Your Clipboard)",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
 -- Emote/Dance --
 local Tab = Window:MakeTab({
     Name = "Hub",
