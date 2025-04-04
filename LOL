@@ -276,6 +276,19 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "Ender (Epic)",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-Ender-by-MelonScript-15547"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Chips (Epic)",
     Callback = function()
         loadstring(game:HttpGetAsync("https://pastebin.com/raw/w36Bzq3k"))()
@@ -381,9 +394,9 @@ Tab:AddButton({
 
 
 Tab:AddParagraph("-- > Gui <--","Not Fe Bypasser")
-Tab:AddLabel("Total Gui : 8")
+Tab:AddLabel("Total Gui : 9")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Gui Working : 8 🟢","Correct Gui Not Working : 0 🔴")
+Tab:AddParagraph("Correct Gui Working : 9 🟢","Correct Gui Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "Str0ng Gui v3",
@@ -415,6 +428,19 @@ Tab:AddButton({
     Name = "UTG || v3",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "The True Melon 🍈 SS (Epic)",
+    Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/C00LMelon/True-SS-Hub/main/Protected.lua%20(4).txt'),true))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -575,7 +601,7 @@ local Section = Tab:AddSection({
 Tab:AddParagraph("-- > Games <--","So Epic LOL")
 Tab:AddLabel("Total Games :1 ")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Script Working :  🟢","Correct Script Not Working : 0 🔴")
+Tab:AddParagraph("Correct Script Working : 7 🟢","Correct Script Not Working : 0 🔴")
 Tab:AddLabel("Just a Baseplate")
 
 Tab:AddButton({
