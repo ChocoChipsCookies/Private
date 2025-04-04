@@ -234,35 +234,22 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Obunga Jumpscare",
-    Callback = function()
-        loadstring(game:HttpGet(('https://pastebin.com/raw/nLJkW0s1')))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Shedletsky",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/mf3ykyBX"))();
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
     Name = "Bomb Vest",
     Callback = function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/seuA0Ldc')))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Chips (Epic)",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/w36Bzq3k"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -289,6 +276,32 @@ Tab:AddButton({
     Name = "Lua Hammer",
     Callback = function()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Lua-Hammer-18934"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Obunga Jumpscare",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/nLJkW0s1')))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Shedletsky",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/mf3ykyBX"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -326,9 +339,9 @@ Tab:AddButton({
 
 
 Tab:AddParagraph("-- > Gui <--","Not Fe Bypasser")
-Tab:AddLabel("Total Gui : 7")
+Tab:AddLabel("Total Gui : 8")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Gui Working : 7 🟢","Correct Gui Not Working : 0 🔴")
+Tab:AddParagraph("Correct Gui Working : 8 🟢","Correct Gui Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "Str0ng Gui v3",
@@ -436,9 +449,9 @@ Tab:AddButton({
 
 
 Tab:AddParagraph("-- > Mini Gui <--","Not Fe Bypasser")
-Tab:AddLabel("Total Mini Gui : 2")
+Tab:AddLabel("Total Mini Gui : 4")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Mini Gui Working : 2 🟢","Correct Mini Gui Not Working : 0 🔴")
+Tab:AddParagraph("Correct Mini Gui Working : 4 🟢","Correct Mini Gui Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "Tr1ag3 Gui v1",
@@ -484,6 +497,61 @@ Tab:AddButton({
     Name = "Mini C00l Gui",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/UPZCQ31W"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+-- Emote/Dance --
+local Tab = Window:MakeTab({
+    Name = "Hub",
+    Icon = "rbxassetid://",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Emote/Dance (New)"
+})
+
+Tab:AddParagraph("-- > Emote/Dance <--","So Epic LOL")
+Tab:AddLabel("Total Emote/Dance : ")
+Tab:AddLabel("Status :3 🟢")
+Tab:AddParagraph("Correct Emote/Dance Working : 3 🟢","Correct Emote/Dance Not Working : 0 🔴")
+
+Tab:AddButton({
+    Name = "Pog Dance (Epic)",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/vYhAqnKn"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Gooppie Dance (Epic)",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/0kRSgCDT"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Smug Dance (Epic)",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/Zawb88SA"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
