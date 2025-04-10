@@ -451,6 +451,19 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "70dq gui but different",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-70rdq-gui-but-diffrent-33690"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Server Finder",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/RealBatu20/AI-Scripts-2025/refs/heads/main/LowServerFinderGUI.lua", true))()
@@ -517,14 +530,27 @@ Tab:AddButton({
 
 
 Tab:AddParagraph("-- > Mini Gui <--","Not Fe Bypasser")
-Tab:AddLabel("Total Mini Gui :5 ")
+Tab:AddLabel("Total Mini Gui :8 ")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Mini Gui Working : 5 🟢","Correct Mini Gui Not Working : 0 🔴")
+Tab:AddParagraph("Correct Mini Gui Working : 8 🟢","Correct Mini Gui Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "Tr1ag3 Gui v1",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/BfE5y664"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "K00Pkidd Gui Reborn",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-K00P*-REBORN-33418"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -575,6 +601,19 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "GHOSTTTPS Gui v2",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/TgAaXKhx"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Mini C00l Gui",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/UPZCQ31W"))()
@@ -587,27 +626,10 @@ Tab:AddButton({
     end    
 })
 
--- Games --
-local Tab = Window:MakeTab({
-    Name = "Games",
-    Icon = "rbxassetid://",
-    PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-    Name = "Games (New)"
-})
-
-Tab:AddParagraph("-- > Games <--","So Epic LOL")
-Tab:AddLabel("Total Games :1 ")
-Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Script Working : 7 🟢","Correct Script Not Working : 0 🔴")
-Tab:AddLabel("Just a Baseplate")
-
 Tab:AddButton({
-    Name = "--[Achromatix v6]-- (Epic)",
+    Name = "vn91B Gui v1",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Quicksilver101/Achromatix-V6/refs/heads/main/Achromatix_V6-1.txt"))()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-vn91b-30828"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -617,122 +639,6 @@ Tab:AddButton({
     end    
 })
 
-Tab:AddButton({
-    Name = "--[Achromatic v4]-- (Epic)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Bkproz/AchromaticEdit/refs/heads/main/Achro"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "--[Achromoonic (Fix Version)]-- (Epic)",
-    Callback = function()
-        loadstring(game:HttpGet("https://gist.githubusercontent.com/thekaisbest/36bf3e3449a40861749bc92b5285fd39/raw/13e574bae9a005570f4f52c8b72ce9fff8068770/achromatic%2520v5%2520edited%2520yes"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "--> [Achromatix v4 - v6 - Fix Version Hat ID] <--",
-    Callback = function()
-        setclipboard("-gh 4458601937 4506945409 4794315940 4820152700 4315489767 4524991457 4773932088 4855847190 4932541287 4458601937")
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed! (The Hat ID, In Your Clipboard)",
-            Image = "rbxassetid://7733993369",
-            Time = 5
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "--[Bruhs Glitcher]-- (Epic)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Quicksilver101/Old-Bruh-Glitcher-/refs/heads/main/bruhs_glitcher.txt"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "--> [Bruhs Glitcher Hat ID] <--",
-    Callback = function()
-        setclipboard("-gh 4458601937,4506945409,4794315940,4315489767,4524991457,4820152700,6904794619,4773932088")
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed! (The Hat ID, In Your Clipboard)",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "--[Pigeon Glitcher]-- (Epic)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Quicksilver101/Pigeon-Glitcher-/refs/heads/main/achromatic_but_my_edit-2-1.txt"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "--> [Pigeon Glitcher Hat ID] <--",
-    Callback = function()
-        setclipboard("-gh 5030789687,4623728953,4820152700,4524991457,4458601937,4315489767,4506945409,4794315940,6203923527,4773883146")
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed! (The Hat ID, In Your Clipboard)",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "--[Thiago glitcher]-- (Epic)",
-    Callback = function()
-        loadstring(game:HttpGet("https://paste.ee/d/ywkU3"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "--> [Thiago glitcher Hat ID] <--",
-    Callback = function()
-        setclipboard("-gh 4458601937 4506945409 4794315940 4820152700 4315489767 4524991457 4773932088 4855847190 4932541287 4458601937")
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed! (The Hat ID, In Your Clipboard)",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
 
 -- Emote/Dance --
 local Tab = Window:MakeTab({
@@ -882,9 +788,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Executor <--","Not Fe Bypasser")
-Tab:AddLabel("Total Executor : 9")
+Tab:AddLabel("Total Executor : 11")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Executor Working : 9 🟢","Correct Executor Not Working : 0 🔴")
+Tab:AddParagraph("Correct Executor Working : 11 🟢","Correct Executor Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "Delta Executor (JK)",
@@ -942,6 +848,32 @@ Tab:AddButton({
     Name = "GEARZ Internal",
     Callback = function()
         loadstring(game:HttpGet("https://github.com/Tropxzz/GEARZ-/blob/main/Internal/main.lua?raw=true", true))() 
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "SF Executor v1.1",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/xj9lkBIv/raw", true))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "SF Executor v1.2",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/Pu13Ovm0/raw",true))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -1032,9 +964,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > SS Executor <--","Only Work On Backdoor Games")
-Tab:AddLabel("Total SS Executor : 5")
+Tab:AddLabel("Total SS Executor : 6")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct SS Executor Working : 5 🟢","Correct SS Executor Not Working : 0 🔴")
+Tab:AddParagraph("Correct SS Executor Working : 6 🟢","Correct SS Executor Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "LALOL Hub (backdoor scanner and executor)",
@@ -1053,6 +985,19 @@ Tab:AddButton({
     Name = "Frakture SS (backdoor scanner and executor)",
     Callback = function()
         loadstring(game:HttpGet('https://pastefy.app/edMe7Bwx/raw'))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Harware SS (backdoor scanner and executor)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/adceDwMv"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
