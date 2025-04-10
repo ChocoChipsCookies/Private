@@ -2,16 +2,16 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DenDenZZZ/Orion-UI-Library/refs/heads/main/source')))()
 -- Make Main Tab --
 local Window = OrionLib:MakeWindow({
-    Name = "Projects Cookies 🍪 || Private Version [v3.5] 🌐",
+    Name = "Projects Cookies 🍪 || Private Version [v1.5] 🌐",
     HidePremium = false,
     SaveConfig = false,           
     ConfigFolder = nil,       
     IntroEnabled = true,
-    IntroText = "Projects Cookies 🍪 || Private Version [v3.5] 🌐",
+    IntroText = "Projects Cookies 🍪 || Private Version [v1.5] 🌐",
     IntroIcon = "rbxassetid://14208295787"
 })
 
-print("Successfully executed, Projects Cookies 🍪 || Private Version 🌐 [v3.5].")
+print("Successfully executed, Projects Cookies 🍪 || Private Version 🌐 [v1.5].")
 
 OrionLib:MakeNotification({
 	Name = "Private Cookies 🍪 || Creator Message🌐",
