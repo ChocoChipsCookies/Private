@@ -466,7 +466,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Sheldoni Modded",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/tPzKthNy"))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/TpfuZbLm"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -861,6 +861,19 @@ Tab:AddButton({
     Name = "Synapse X",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/ArWMY6Ve", true))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Projects gobby",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/zdWzn6lL/raw", true))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
