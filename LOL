@@ -1,3 +1,25 @@
+-- Load Data --
+print("Load Gui...")
+print("Load Script...")
+print("Load Local Data...")
+print("Load Completed...[100%]")
+print("Successfully executed, Projects Cookies 🍪 || Private Version 🌐 [v1.5].")
+print("")
+print("Thanks You For Using Our Private Gui✨")
+print("")
+print("_______________________________________")
+print("------------[🌌 Credits 🌌]------------")
+print("---------------------------------------")
+print("-----[🎩🛠️ Creator/Developer 🛠️🎩]-----")
+print("------------->WHITE_BUBU<-------------")
+print("---------------------------------------")
+print("---------[❤️ Special Thanks ❤️]--------")
+print("---------->Team Cookies 🍪🌐<---------")
+print("---------------------------------------")
+print("[The One Who Make Me Smile Everytime🙂]")
+print("------------->Fuvv4_w1nnn<------------")
+
+
 -- Orion Library --
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DenDenZZZ/Orion-UI-Library/refs/heads/main/source')))()
 -- Make Main Tab --
