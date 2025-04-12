@@ -699,6 +699,47 @@ Tab:AddButton({
     end    
 })
 
+-- Tools/Gears --
+local Tab = Window:MakeTab({
+    Name = "Tools/Gears",
+    Icon = "rbxassetid://",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Tools/Gears (New)"
+})
+
+Tab:AddParagraph("-- > Tools/Gears <--","So Epic LOL")
+Tab:AddLabel("Total Tools/Gears : 2")
+Tab:AddLabel("Status : 2 🟢")
+Tab:AddParagraph("Correct Emote/Dance Working : 2 🟢","Correct Emote/Dance Not Working : 0 🔴")
+
+Tab:AddButton({
+    Name = "Minecraft Tools (Beta)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Tool/refs/heads/main/Minecraft%20Tools"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Coca Cola",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Tool/refs/heads/main/Coca%20Cola.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
 
 -- Emote/Dance --
 local Tab = Window:MakeTab({
@@ -712,8 +753,8 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Emote/Dance <--","So Epic LOL")
-Tab:AddLabel("Total Emote/Dance : ")
-Tab:AddLabel("Status :3 🟢")
+Tab:AddLabel("Total Emote/Dance : 3")
+Tab:AddLabel("Status : 3 🟢")
 Tab:AddParagraph("Correct Emote/Dance Working : 3 🟢","Correct Emote/Dance Not Working : 0 🔴")
 
 Tab:AddButton({
@@ -767,12 +808,12 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Hub <--","OP Hub")
-Tab:AddLabel("Total Hub : 5")
+Tab:AddLabel("Total Hub : 6")
 Tab:AddLabel("Status : 🟢")
 Tab:AddParagraph("Correct Hub Working : 5 🟢","Correct Hub Not Working : 0 🔴")
 
 Tab:AddButton({
-    Name = "Orange X Hub V5",
+    Name = "Orange X Hub V5.0",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ImJosh66/Ab2rW/main/ORANGEX%20V5%20RELEASED%20ORANGEX%20ON%20TOP%20.txt"))()
         OrionLib:MakeNotification({
@@ -798,9 +839,22 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Script Hub v3",
+    Name = "Script Hub v3.0",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/SCRIPTHUBV3/main/SCRIPTHUBV3", true))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Slicer v7.0",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Slicer/refs/heads/main/Slicer%20Fe%20V7.txt"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -848,12 +902,12 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Executor <--","Not Fe Bypasser")
-Tab:AddLabel("Total Executor : 28")
+Tab:AddLabel("Total Executor : 29")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Executor Working : 28 🟢","Correct Executor Not Working : 0 🔴")
+Tab:AddParagraph("Correct Executor Working : 29 🟢","Correct Executor Not Working : 0 🔴")
 
 Tab:AddButton({
-    Name = "Delta X",
+    Name = "Delta X (Old UI)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ElijahGamingRBLX/Roblox-Executor/8536d27eef4eca985572dc30fc146dfd4e55a893/DeltaExecutor.lua", true))()
         OrionLib:MakeNotification({
@@ -869,6 +923,32 @@ Tab:AddButton({
     Name = "Archeus X Neo",
     Callback = function()
         loadstring(game:HttpGet("https://pastefy.app/lcdPTBLg/raw", true))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = " Codex",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CodexScripts/CodexUI/refs/heads/main/CodexMain"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Cubix",
+    Callback = function()
+        loadstring(game:HttpGet("https://github.com/1dontgiveaf/testscript69/raw/main/Cubix", true))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -987,19 +1067,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Krnl Internal",
-    Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Internal-UI-18485"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
     Name = "GEARZ Internal",
     Callback = function()
         loadstring(game:HttpGet("https://github.com/Tropxzz/GEARZ-/blob/main/Internal/main.lua?raw=true", true))() 
@@ -1028,8 +1095,6 @@ Tab:AddButton({
         })
     end    
 })
-
-
 
 Tab:AddButton({
     Name = "AWP.GG (PC Only)",
@@ -1232,9 +1297,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > SS Executor <--","Only Work On Backdoor Games")
-Tab:AddLabel("Total SS Executor : 6")
+Tab:AddLabel("Total SS Executor : 8")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct SS Executor Working : 6 🟢","Correct SS Executor Not Working : 0 🔴")
+Tab:AddParagraph("Correct SS Executor Working : 8 🟢","Correct SS Executor Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "LALOL Hub (backdoor scanner and executor)",
@@ -1314,18 +1379,8 @@ Tab:AddButton({
     end    
 })
 
-
-local Section = Tab:AddSection({
-    Name = "SS Executor (Keyless)"
-})
-
-Tab:AddParagraph("-- > Keyless SS Executor <--","Only Work On Backdoor Games")
-Tab:AddLabel("Total Keyless SS Executor : 2")
-Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Keyless SS Executor Working : 2 🟢","Correct Keyless SS Executor Not Working : 0 🔴")
-
 Tab:AddButton({
-    Name = "Syntax Hub (Keyless)",
+    Name = "Syntax SS (Keyless)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/SyntaxRebornOfficial/main/SyntaxReborn", true))()
         setclipboard("Key : Syntaxbesthub")
