@@ -1097,6 +1097,20 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "Sirhurt (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/VwbuWTZJ"))()
+        OrionLib:MakeNotification({
+        setclipboard("Key : Fv7eNke8i0")
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed! (The Key In Your Clipboard)",
+            Image = "rbxassetid://7733993369",
+            Time = 10
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "AWP.GG (PC Only)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/hCZBmTxj"))();
@@ -1318,6 +1332,19 @@ Tab:AddButton({
     Name = "Frakture SS (backdoor scanner and executor)",
     Callback = function()
         loadstring(game:HttpGet('https://pastefy.app/edMe7Bwx/raw'))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Micro SS (backdoor scanner and executor)",
+    Callback = function()
+        loadstring(game:HttpGet("https://paste.ee/r/1FC2N"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
