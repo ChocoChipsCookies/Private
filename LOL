@@ -485,6 +485,19 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "Ro-Wrecker",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/tsGrmbks"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Sheldoni Modded",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/TpfuZbLm"))();
@@ -835,14 +848,14 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Executor <--","Not Fe Bypasser")
-Tab:AddLabel("Total Executor : 20")
+Tab:AddLabel("Total Executor : 28")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Executor Working : 20 🟢","Correct Executor Not Working : 0 🔴")
+Tab:AddParagraph("Correct Executor Working : 28 🟢","Correct Executor Not Working : 0 🔴")
 
 Tab:AddButton({
-    Name = "Delta Executor (JK)",
+    Name = "Delta X",
     Callback = function()
-        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Delta-Executor-J-O-K-E-7664"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ElijahGamingRBLX/Roblox-Executor/8536d27eef4eca985572dc30fc146dfd4e55a893/DeltaExecutor.lua", true))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -866,7 +879,46 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Krnl Executor",
+    Name = "AppleWare",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TableDevelopments/public/e89d51c0c0c414f7b0263c68983d8564543b7771/ui.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Hydrogen",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Executor/refs/heads/main/Hydrogen.txt"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Krypton",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/anyahubs/executer/main/Krypton(UI).txt"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Krnl",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/wtfplayer/redemption/main/krnlnoui.lua"))()
         OrionLib:MakeNotification({
@@ -879,74 +931,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Synapse X",
+    Name = "Kiwi X",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/ArWMY6Ve", true))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Projects gobby",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastefy.app/zdWzn6lL/raw", true))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Gobby Executor v2",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastefy.app/Lc9amolD/raw", true))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "G00LKIC Executor v2",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastefy.app/ddkGSi8i/raw",  true))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "GEARZ Internal",
-    Callback = function()
-        loadstring(game:HttpGet("https://github.com/Tropxzz/GEARZ-/blob/main/Internal/main.lua?raw=true", true))() 
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Krnl Internal",
-    Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Internal-UI-18485"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/Kiwi-Ui.lua"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -982,10 +969,14 @@ Tab:AddButton({
     end    
 })
 
+local Section = Tab:AddSection({
+    Name = "Internal"
+})
+
 Tab:AddButton({
-    Name = "SF Executor v1.1",
+    Name = "Delta Internal",
     Callback = function()
-        loadstring(game:HttpGet("https://pastefy.app/xj9lkBIv/raw", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Other-Stuff/main/ExecutorInternal.lua"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -996,9 +987,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "SF Executor v1.2",
+    Name = "Krnl Internal",
     Callback = function()
-        loadstring(game:HttpGet("https://pastefy.app/Pu13Ovm0/raw",true))()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Internal-UI-18485"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -1009,9 +1000,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Polaria Lua",
+    Name = "GEARZ Internal",
     Callback = function()
-        loadstring(game:HttpGet(('https://pastebin.com/raw/cqCsjPQr')))()
+        loadstring(game:HttpGet("https://github.com/Tropxzz/GEARZ-/blob/main/Internal/main.lua?raw=true", true))() 
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -1020,107 +1011,25 @@ Tab:AddButton({
         })
     end    
 })
-
-Tab:AddButton({
-    Name = "RC7 Require",
-    Callback = function()
-        loadstring(game:HttpGet(('https://pastebin.com/raw/CVecVrT1')))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Stigma Ultimate",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/WW9zWhdA"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Dominant Executor",
-    Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Dominant-executor-29479"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Elysian",
-    Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/CsFAQyXr'))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Protosmasher Rewrite",
-    Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/AkU2spGc'))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Unrestricted Script",
-    Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Unrestricted-Script-Executor-26373"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Mario.exe",
-    Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Mario-EXE-lua-executor-17576"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
 
 local Section = Tab:AddSection({
     Name = "Executor (PC Only)"
 })
 
-Tab:AddParagraph("-- > Executor <--","PC Only")
-Tab:AddLabel("Total PC Executor : 2")
-Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct PC Executor Working : 2 🟢","Correct PC Executor Not Working : 0 🔴")
+Tab:AddButton({
+    Name = "Synapse X (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/ArWMY6Ve", true))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+
 
 Tab:AddButton({
     Name = "AWP.GG (PC Only)",
@@ -1139,6 +1048,175 @@ Tab:AddButton({
     Name = "Script Executor (PC Only)",
     Callback = function()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Script-Executor-UI-27379"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "SF Executor v1.1 (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/xj9lkBIv/raw", true))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "SF Executor v1.2 (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/Pu13Ovm0/raw",true))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Projects gobby (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/zdWzn6lL/raw", true))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Gobby Executor v2 (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/Lc9amolD/raw", true))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "G00LKIC Executor v2 (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/ddkGSi8i/raw",  true))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Polaria Lua (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/cqCsjPQr')))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "RC7 Require (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/CVecVrT1')))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Stigma Ultimate (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/WW9zWhdA"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Dominant Executor (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Dominant-executor-29479"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Elysian (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/CsFAQyXr'))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Protosmasher Rewrite (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/AkU2spGc'))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Unrestricted Script (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Unrestricted-Script-Executor-26373"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Mario.exe (PC Only)",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Mario-EXE-lua-executor-17576"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
