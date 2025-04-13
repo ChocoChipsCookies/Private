@@ -206,7 +206,6 @@ Tab:AddButton({
     end    
 })
 
-
 Tab:AddButton({
     Name = "Dark Dex (Mobile Support)",
     Callback = function()
@@ -234,22 +233,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Remote Spy v3",
-    Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-RemoteSpy-v3-33731"))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
     Name = "Simple Spy v3",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-RemoteSpy-v3-33731"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -272,7 +258,7 @@ Tab:AddButton({
     end    
 })
 
-
+-- Player --
 local Tab = Window:MakeTab({
     Name = "Players",
     Icon = "rbxassetid://7743875503",
@@ -324,9 +310,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Script <--","Not Fe Bypasser")
-Tab:AddLabel("Total Script : 12")
+Tab:AddLabel("Total Script : 14")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Script Working : 12 🟢","Correct Script Not Working : 0 🔴")
+Tab:AddParagraph("Correct Script Working : 14 🟢","Correct Script Not Working : 0 🔴")
 Tab:AddLabel("↓ To Use This Script, You Need To Use Keyboard! ↓")
 
 Tab:AddButton({
@@ -515,9 +501,9 @@ Tab:AddButton({
 
 
 Tab:AddParagraph("-- > Gui <--","Not Fe Bypasser")
-Tab:AddLabel("Total Gui : 12")
+Tab:AddLabel("Total Gui : 14")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Gui Working : 12 🟢","Correct Gui Not Working : 0 🔴")
+Tab:AddParagraph("Correct Gui Working : 14 🟢","Correct Gui Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "Str0ng Gui v3",
@@ -824,9 +810,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Tools/Gears <--","So Epic LOL")
-Tab:AddLabel("Total Tools/Gears : 32")
+Tab:AddLabel("Total Tools/Gears : 44")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Tools/Gears Working : 32 🟢","Correct Tools/Gears Not Working : 0 🔴")
+Tab:AddParagraph("Correct Tools/Gears Working : 44 🟢","Correct Tools/Gears Not Working : 0 🔴")
 Tab:AddLabel("Credits To Slicer [Owner of All Gears/Tools]")
 
 Tab:AddButton({
@@ -1365,10 +1351,10 @@ local Section = Tab:AddSection({
     Name = "Hub"
 })
 
-Tab:AddParagraph("-- > Hub <--","OP Hub")
-Tab:AddLabel("Total Hub : 7")
+Tab:AddParagraph("-- > Hub <--","Credits To Owner of This Hub")
+Tab:AddLabel("Total Hub : 9")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Hub Working : 7 🟢","Correct Hub Not Working : 0 🔴")
+Tab:AddParagraph("Correct Hub Working : 9 🟢","Correct Hub Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "Orange X Hub V5.0",
@@ -1462,6 +1448,19 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "G0bbyD0llan Hub",
+    Callback = function()
+        loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\71\48\98\98\121\68\48\108\108\97\110\47\69\122\45\104\117\98\47\109\97\105\110\47\71\48\98\98\121\72\117\98"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Void Hub",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidSkids/Key/main/README.md"))()
@@ -1486,9 +1485,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Executor <--","Not Fe Bypasser")
-Tab:AddLabel("Total Executor : 29")
+Tab:AddLabel("Total Executor : 32")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Executor Working : 29 🟢","Correct Executor Not Working : 0 🔴")
+Tab:AddParagraph("Correct Executor Working : 32 🟢","Correct Executor Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "Delta X (Old UI)",
@@ -1921,9 +1920,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > SS Executor <--","Only Work On Backdoor Games")
-Tab:AddLabel("Total SS Executor : 8")
+Tab:AddLabel("Total SS Executor : 9")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct SS Executor Working : 8 🟢","Correct SS Executor Not Working : 0 🔴")
+Tab:AddParagraph("Correct SS Executor Working : 9 🟢","Correct SS Executor Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "LALOL Hub (backdoor scanner and executor)",
