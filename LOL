@@ -107,7 +107,7 @@ local Section = Tab:AddSection({
     Name = "Admin Panel"
 })
 
-Tab:AddParagraph("--> Admin Panel <--","Total Panel : 4")
+Tab:AddParagraph("--> Admin Panel <--","Total Panel : 5")
 Tab:AddLabel("Status : 🟢")
 Tab:AddParagraph("Correct Script Working : 5 🟢","Correct Script Not Working : 0 🔴")
 
