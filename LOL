@@ -1263,6 +1263,32 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "Avtor Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Universall-Avtor-Hub-12564"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Ultimate Trolling Hub v2.3",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ChocoChipsCookies/Private/refs/heads/main/Cum"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "EZ Hub",
     Callback = function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug42O/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
