@@ -928,7 +928,6 @@ Tab:AddButton({
     end    
 })
 
-
 Tab:AddButton({
     Name = "Minecraft Tools (Beta)",
     Callback = function()
@@ -1278,7 +1277,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Ultimate Trolling Hub v2.3",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ChocoChipsCookies/Private/refs/heads/main/Cum"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -1331,19 +1330,6 @@ Tab:AddButton({
     Name = "Ghost Hub",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "G0bbyD0llan Hub",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ChocoChipsCookies/Private/refs/heads/main/Bruh"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
