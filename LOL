@@ -1244,7 +1244,7 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Hub <--","OP Hub")
-Tab:AddLabel("Total Hub : 7)
+Tab:AddLabel("Total Hub : 7")
 Tab:AddLabel("Status : 🟢")
 Tab:AddParagraph("Correct Hub Working : 7 🟢","Correct Hub Not Working : 0 🔴")
 
