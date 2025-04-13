@@ -1,2 +1,4 @@
 getgenv().ActivateTheUltimateTrolly = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Orealated/Oreal/main/orealated%20Easy.gg%20UTH%20Loader", true))();
+local a, b, e = loadstring, request or http_request or (http and http.request), "https://raw.githubusercontent.com/Orealated/Oreal/main/orealated%20Easy.gg%20Ultimate%20Trolling%20Hub%20Loader"
+if not (a and b) then game.Players.LocalPlayer:Kick("[( Executor not Supported )] - Please Use an Executor Like Delta, Fluxus or Arceus X Neo.") else 
+a(game:HttpGet(e, true))(); end
