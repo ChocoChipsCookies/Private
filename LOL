@@ -1046,6 +1046,19 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "Fluxus Coral",
+    Callback = function()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fluxus-Coral-Remake-7112"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Archeus X Neo",
     Callback = function()
         loadstring(game:HttpGet("https://pastefy.app/lcdPTBLg/raw", true))()
