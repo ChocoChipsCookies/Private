@@ -1278,7 +1278,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Ultimate Trolling Hub v2.3",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ChocoChipsCookies/Private/refs/heads/main/Cum"))()
+        
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
