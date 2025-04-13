@@ -892,7 +892,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Rocket Launcher",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ChocoChipsCookies/Private/refs/heads/main/Idk"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
