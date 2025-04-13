@@ -716,9 +716,10 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Tools/Gears <--","So Epic LOL")
-Tab:AddLabel("Total Tools/Gears : 2")
+Tab:AddLabel("Total Tools/Gears : 25")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Emote/Dance Working : 2 🟢","Correct Emote/Dance Not Working : 0 🔴")
+Tab:AddParagraph("Correct Emote/Dance Working : 25 🟢","Correct Emote/Dance Not Working : 0 🔴")
+Tab:AddLabel("Credits To Slicer [Owner of All Gears/Tools]")
 
 Tab:AddButton({
     Name = "Rocket Ship and UFO",
@@ -1053,6 +1054,8 @@ Tab:AddButton({
         })
     end    
 })
+
+Tab:AddLabel("Credits To Slicer [Owner of All Gears/Tools]")
 
 -- Emote/Dance --
 local Tab = Window:MakeTab({
