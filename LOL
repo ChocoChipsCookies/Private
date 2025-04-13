@@ -176,6 +176,49 @@ Tab:AddButton({
     end    
 })
 
+local Section = Tab:AddSection({
+    Name = "Developer Tools Kit"
+})
+
+Tab:AddButton({
+    Name = "Dark Dex (Mobile Support)",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Universal-Mobile-Dex-32474"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Simple Spy v3",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Hydroxie",
+    Callback = function()
+        
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
 
 local Tab = Window:MakeTab({
     Name = "Players",
@@ -975,6 +1018,19 @@ Tab:AddButton({
     Name = "Epic Tools Giver v1",
     Callback = function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/Ac1PriB1'),true))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Patrick Tools Kit",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastefy.app/VYIAk3o1/raw'),true))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
