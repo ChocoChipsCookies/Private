@@ -733,6 +733,61 @@ Tab:AddButton({
     end    
 })
 
+-- Emote/Dance --
+local Tab = Window:MakeTab({
+    Name = "Emote/Dance",
+    Icon = "rbxassetid://",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Emote/Dance (New)"
+})
+
+Tab:AddParagraph("-- > Emote/Dance <--","So Epic LOL")
+Tab:AddLabel("Total Emote/Dance : 3")
+Tab:AddLabel("Status : 3 🟢")
+Tab:AddParagraph("Correct Emote/Dance Working : 3 🟢","Correct Emote/Dance Not Working : 0 🔴")
+
+Tab:AddButton({
+    Name = "Pog Dance (Epic)",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/vYhAqnKn"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Gooppie Dance (Epic)",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/0kRSgCDT"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Smug Dance (Epic)",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/Zawb88SA"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
 -- Hub --
 local Tab = Window:MakeTab({
     Name = "Hub",
