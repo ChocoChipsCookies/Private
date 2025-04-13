@@ -1092,8 +1092,8 @@ Tab:AddButton({
     Name = "Sirhurt (PC Only)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/VwbuWTZJ"))()
-        OrionLib:MakeNotification({
         setclipboard("Key : Fv7eNke8i0")
+        OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed! (The Key In Your Clipboard)",
             Image = "rbxassetid://7733993369",
