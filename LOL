@@ -302,6 +302,19 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "John Doe",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-John-doe-up-by-gojohdkaisenkt-34198"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Chips (Epic)",
     Callback = function()
         loadstring(game:HttpGetAsync("https://pastebin.com/raw/w36Bzq3k"))()
@@ -704,13 +717,65 @@ local Section = Tab:AddSection({
 
 Tab:AddParagraph("-- > Tools/Gears <--","So Epic LOL")
 Tab:AddLabel("Total Tools/Gears : 2")
-Tab:AddLabel("Status : 2 🟢")
+Tab:AddLabel("Status : 🟢")
 Tab:AddParagraph("Correct Emote/Dance Working : 2 🟢","Correct Emote/Dance Not Working : 0 🔴")
 
 Tab:AddButton({
-    Name = "Minecraft Tools (Beta)",
+    Name = "Rocket Ship and UFO",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Tool/refs/heads/main/Minecraft%20Tools"))()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Free-Personal-UFO-and-Personal-Rocketship-27380"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Classic Plane",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Free-Classic-Plane-27381"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "HyperBikes",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Free-hyperbikes-27393"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "The 6TH Annual Bloxy Award and Bloxy Cola",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Impossible-Glass-Bridge-(Squid-Game)-Free-The-6th-Annual-Bloxy-Award-And-bloxy-cola-27380"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "LightBlox Jar",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Free-lightblox-jar-27522"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -733,6 +798,75 @@ Tab:AddButton({
     end    
 })
 
+Tab:AddButton({
+    Name = "Epic Ak47",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ak47", true))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Classic Sword",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-Classic-Sword-Fling-Tool-16842"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Minecraft Tools (Beta)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Tool/refs/heads/main/Minecraft%20Tools"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+local Section = Tab:AddSection({
+    Name = "Extra Tools"
+})
+
+Tab:AddButton({
+    Name = "Meme Tools v2",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Meme-Tools-V2-29149"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Meme Tools v1",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Meme-tools-29117"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
 -- Emote/Dance --
 local Tab = Window:MakeTab({
     Name = "Emote/Dance",
@@ -746,7 +880,7 @@ local Section = Tab:AddSection({
 
 Tab:AddParagraph("-- > Emote/Dance <--","So Epic LOL")
 Tab:AddLabel("Total Emote/Dance : 3")
-Tab:AddLabel("Status : 3 🟢")
+Tab:AddLabel("Status : 🟢")
 Tab:AddParagraph("Correct Emote/Dance Working : 3 🟢","Correct Emote/Dance Not Working : 0 🔴")
 
 Tab:AddButton({
