@@ -1317,7 +1317,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "G0bbyD0llan Hub",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ChocoChipsCookies/Private/refs/heads/main/Bruh"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
