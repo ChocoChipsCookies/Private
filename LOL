@@ -107,14 +107,27 @@ local Section = Tab:AddSection({
     Name = "Admin Panel"
 })
 
-Tab:AddParagraph("--> Admin Panel <--","Total Panel : 5")
+Tab:AddParagraph("--> Admin Panel <--","Total Panel : 9")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Script Working : 5 🟢","Correct Script Not Working : 0 🔴")
+Tab:AddParagraph("Correct Script Working : 9 🟢","Correct Script Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "Infinite Yield",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Nameless Admin v2.1 (Test Panel)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/refs/heads/main/NA%20testing.lua"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -154,6 +167,32 @@ Tab:AddButton({
     Name = "Rocky2u Admin",
     Callback = function()
         str_srce = "14682300022" loadstring(game:GetObjects("rbxassetid://"..str_srce)[1].Source)()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Ro-Chips Admin Remake",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/load/refs/heads/main/rcloader"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Ro-Hack",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/c7RN80WM'))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -501,9 +540,9 @@ Tab:AddButton({
 
 
 Tab:AddParagraph("-- > Gui <--","Not Fe Bypasser")
-Tab:AddLabel("Total Gui : 14")
+Tab:AddLabel("Total Gui : 17")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Gui Working : 14 🟢","Correct Gui Not Working : 0 🔴")
+Tab:AddParagraph("Correct Gui Working : 17 🟢","Correct Gui Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "Str0ng Gui v3",
@@ -535,6 +574,19 @@ Tab:AddButton({
     Name = "Virtual Keyboard",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/uuuuuuu/refs/heads/main/VirtualKeyboard.lua"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "G00fyUserAh Gui",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-G00fyUserAh-fe-f3x-edition-27792"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -587,6 +639,19 @@ Tab:AddButton({
     Name = "G00byd0lan Gui v8",
     Callback = function()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-G00by-GUI-v8-10301"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "N0t4 Gui v7",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/pedroluckygod/Yes/main/UNDETECTABLE%20GUI%20V7"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -678,6 +743,19 @@ Tab:AddButton({
     Name = "Ro-Xploit 5.0",
     Callback = function()
         loadstring(game:GetObjects("rbxassetid://288646117")[1].Source)()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "C00l Gui Reawakened",
+    Callback = function()
+        loadstring(game:HttpGet("https://web.archive.org/web/20240622161451/https://pastebin.com/raw/YjjW74s2"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -836,9 +914,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Tools/Gears <--","So Epic LOL")
-Tab:AddLabel("Total Tools/Gears : 44")
+Tab:AddLabel("Total Tools/Gears : 45")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Tools/Gears Working : 44 🟢","Correct Tools/Gears Not Working : 0 🔴")
+Tab:AddParagraph("Correct Tools/Gears Working : 45 🟢","Correct Tools/Gears Not Working : 0 🔴")
 Tab:AddLabel("Credits To Slicer [Owner of All Gears/Tools]")
 
 Tab:AddButton({
@@ -988,6 +1066,19 @@ Tab:AddButton({
     Name = "Poison",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/0TnfRMsr"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "F3X",
+    Callback = function()
+        loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
