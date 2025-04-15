@@ -382,7 +382,7 @@ Tab:AddButton({
     end    
 })
 
-Tab:AddLabel("↑ Virtual Keyboard ↑)
+Tab:AddLabel("↑ Virtual Keyboard ↑")
 
 Tab:AddButton({
     Name = "Chaotic God",
