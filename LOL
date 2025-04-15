@@ -383,7 +383,7 @@ Tab:AddButton({
     end    
 })
 
-Tab:AddParagraph("↑ R6 Character! ↑","If you are R15 Character you can use this R6 Character Script!")
+Tab:AddParagraph("↑ R6 Character! ↑","We're Recommended to use this R6 Avatar Script!, So you don't have to rejoin when using the script!")
 
 Tab:AddButton({
     Name = "Virtual Keyboard Script!",
@@ -398,7 +398,7 @@ Tab:AddButton({
     end    
 })
 
-Tab:AddParagraph("↑ Virtual Keyboard ↑","If you on a mobile and don't have Keyboard you can use this Virtual Keyboard Script!)
+Tab:AddParagraph("↑ Virtual Keyboard ↑","If you on a mobile and don't have PC and Keyboard, you can actually use this Virtual Keyboard Script, for a better when using Script!")
 
 Tab:AddLabel("↓ R6 Script! ↓")
 
