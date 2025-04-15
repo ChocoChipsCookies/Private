@@ -1040,6 +1040,32 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "MLG Particles",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/EECY2a6r"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Rc⁷ Cloud",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/h18G7UsU"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Obunga Jumpscare",
     Callback = function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/nLJkW0s1')))()
