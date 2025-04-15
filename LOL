@@ -364,9 +364,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Script <--","Not Fe Bypasser")
-Tab:AddLabel("Total Script : 14")
+Tab:AddLabel("Total Script : 53")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Script Working : 14 🟢","Correct Script Not Working : 0 🔴")
+Tab:AddParagraph("Correct Script Working : 53 🟢","Correct Script Not Working : 0 🔴")
 Tab:AddLabel("↓ To Use This Script, You Need To Use Keyboard! ↓")
 
 Tab:AddButton({
@@ -437,7 +437,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Archangel",
+    Name = "Archangel (NEED A GOOD PC TO WORK SMOOTHLY!)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/pUbrEfGS"))();
         OrionLib:MakeNotification({
@@ -1449,9 +1449,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Tools/Gears <--","So Epic LOL")
-Tab:AddLabel("Total Tools/Gears : 45")
+Tab:AddLabel("Total Tools/Gears : 42")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Tools/Gears Working : 45 🟢","Correct Tools/Gears Not Working : 0 🔴")
+Tab:AddParagraph("Correct Tools/Gears Working : 42 🟢","Correct Tools/Gears Not Working : 0 🔴")
 Tab:AddLabel("Credits To Slicer [Owner of All Gears/Tools]")
 
 Tab:AddButton({
