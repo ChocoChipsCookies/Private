@@ -367,6 +367,7 @@ Tab:AddParagraph("-- > Script <--","Not Fe Bypasser")
 Tab:AddLabel("Total Script : 53")
 Tab:AddLabel("Status : 🟢")
 Tab:AddParagraph("Correct Script Working : 53 🟢","Correct Script Not Working : 0 🔴")
+
 Tab:AddLabel("↓ Script Helper! ↓")
 
 Tab:AddButton({
@@ -382,7 +383,7 @@ Tab:AddButton({
     end    
 })
 
-Tab:AddParagraph("↑ R6 Character! ↑","If you are R15 Character, you can use this R6 Character Script!")
+Tab:AddParagraph("↑ R6 Character! ↑","If you are R15 Character you can use this R6 Character Script!")
 
 Tab:AddButton({
     Name = "Virtual Keyboard Script!",
@@ -397,7 +398,7 @@ Tab:AddButton({
     end    
 })
 
-Tab:AddParagraph("↑ Virtual Keyboard ↑","If you on a mobile and don't have Keyboard, you can use this Virtual Keyboard Script!)
+Tab:AddParagraph("↑ Virtual Keyboard ↑","If you on a mobile and don't have Keyboard you can use this Virtual Keyboard Script!)
 
 Tab:AddLabel("↓ R6 Script! ↓")
 
