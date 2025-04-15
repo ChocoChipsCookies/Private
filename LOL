@@ -367,10 +367,25 @@ Tab:AddParagraph("-- > Script <--","Not Fe Bypasser")
 Tab:AddLabel("Total Script : 53")
 Tab:AddLabel("Status : 🟢")
 Tab:AddParagraph("Correct Script Working : 53 🟢","Correct Script Not Working : 0 🔴")
-Tab:AddLabel("↓ To Use This Script, You Need To Use Keyboard! ↓")
+Tab:AddLabel("↓ Script Helper! ↓")
 
 Tab:AddButton({
-    Name = "Virtual Keyboard",
+    Name = "R6 Character Script!",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-R15-to-r6-script-working-all-game-26416"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddParagraph("↑ R6 Character! ↑","If you are R15 Character, you can use this R6 Character Script!")
+
+Tab:AddButton({
+    Name = "Virtual Keyboard Script!",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/uuuuuuu/refs/heads/main/VirtualKeyboard.lua"))();
         OrionLib:MakeNotification({
@@ -382,7 +397,9 @@ Tab:AddButton({
     end    
 })
 
-Tab:AddLabel("↑ Virtual Keyboard ↑")
+Tab:AddParagraph("↑ Virtual Keyboard ↑","If you on a mobile and don't have Keyboard, you can use this Virtual Keyboard Script!)
+
+Tab:AddLabel("↓ R6 Script! ↓")
 
 Tab:AddButton({
     Name = "Chaotic God",
