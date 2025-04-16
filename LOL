@@ -99,7 +99,7 @@ Tab:AddButton({
 -- Admin --
 local Tab = Window:MakeTab({
     Name = "Clients Admin",
-    Icon = "rbxassetid://1",
+    Icon = "rbxassetid://16734166016",
     PremiumOnly = false
 })
 
@@ -2320,7 +2320,7 @@ Tab:AddButton({
 -- Executor --
 local Tab = Window:MakeTab({
     Name = "Executor",
-    Icon = "rbxassetid://",
+    Icon = "rbxassetid://15961001379",
     PremiumOnly = false
 })
 
