@@ -355,7 +355,7 @@ Tab:AddLabel("Only Work, if you in R15 Character!")
 -- Script --
 local Tab = Window:MakeTab({
     Name = "Script/Gui",
-    Icon = "rbxassetid://",
+    Icon = "rbxassetid://86591853167234",
     PremiumOnly = false
 })
 
@@ -1523,7 +1523,7 @@ Tab:AddButton({
 -- Tools/Gears --
 local Tab = Window:MakeTab({
     Name = "Tools/Gears",
-    Icon = "rbxassetid://",
+    Icon = "rbxassetid://124159074947754",
     PremiumOnly = false
 })
 
@@ -2132,7 +2132,7 @@ Tab:AddLabel("Credits To Slicer [Owner of All Gears/Tools]")
 -- Emote/Dance --
 local Tab = Window:MakeTab({
     Name = "Emote/Dance",
-    Icon = "rbxassetid://",
+    Icon = "rbxassetid://17824304373",
     PremiumOnly = false
 })
 
@@ -2187,7 +2187,7 @@ Tab:AddButton({
 -- Hub --
 local Tab = Window:MakeTab({
     Name = "Hub",
-    Icon = "rbxassetid://",
+    Icon = "rbxassetid://16149184217",
     PremiumOnly = false
 })
 
@@ -3020,7 +3020,7 @@ Tab:AddButton({
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "👉 Little ❤️ Cookies 👈",
-            Image = "rbxassetid://7733993369",
+            Image = "rbxassetid://11821088983",
             Time = 5
         })
     end    
