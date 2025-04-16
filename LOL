@@ -3194,7 +3194,7 @@ Tab:AddButton({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "R.I.P RED_BUBU...",
             Image = "rbxassetid://7733993369",
-            Time = 5
+            Time = 10
         })
     end    
 })
@@ -3211,7 +3211,7 @@ Tab:AddButton({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "❤️Thanks You For Support Me❤️!",
             Image = "rbxassetid://13948965891",
-            Time = 5
+            Time = 10
         })
     end    
 })
@@ -3228,7 +3228,7 @@ Tab:AddButton({
             Name = "Projects Cookies 🍪 || Fuvva Message🌐",
             Content = "👉 Little ❤️ Cookies 👈",
             Image = "rbxassetid://11821088983",
-            Time = 5
+            Time = 10
         })
     end    
 })
