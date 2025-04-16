@@ -30,7 +30,7 @@ local Window = OrionLib:MakeWindow({
     ConfigFolder = nil,       
     IntroEnabled = true,
     IntroText = "Projects Cookies 🍪 || Private Version [v1.5] 🌐",
-    IntroIcon = "rbxassetid://14208295787"
+    IntroIcon = "rbxassetid://4483345998"
 })
 
 
@@ -68,7 +68,7 @@ local Section = Tab:AddSection({
     Name = "--> Note <--"
 })
 
-Tab:AddParagraph("This Script Made by WHITE_BUBU!,","And Team Cookies🍪!")
+Tab:AddParagraph("This Gui Made by WHITE_BUBU!,","And Team Cookies🍪!")
 
 Tab:AddButton({
     Name = "YouTube",
@@ -3003,7 +3003,7 @@ Tab:AddButton({
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "❤️Thanks You For Support Me❤️!",
-            Image = "rbxassetid://7733993369",
+            Image = "rbxassetid://4483345998",
             Time = 5
         })
     end    
