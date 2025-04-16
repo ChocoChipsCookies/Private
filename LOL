@@ -1079,6 +1079,19 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "N00T-N00T (⚠️ LAG WARNING ⚠️)",
+    Callback = function()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-NOOT-NOOT-9643"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Shedletsky",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/mf3ykyBX"))();
