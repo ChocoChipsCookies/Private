@@ -30,7 +30,7 @@ local Window = OrionLib:MakeWindow({
     ConfigFolder = nil,       
     IntroEnabled = true,
     IntroText = "Projects Cookies 🍪 || Private Version [v1.5] 🌐",
-    IntroIcon = "rbxassetid://4483345998"
+    IntroIcon = "rbxassetid://13948965891"
 })
 
 
@@ -3003,14 +3003,14 @@ Tab:AddButton({
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "❤️Thanks You For Support Me❤️!",
-            Image = "rbxassetid://4483345998",
+            Image = "rbxassetid://13948965891",
             Time = 5
         })
     end    
 })
 
 local Section = Tab:AddSection({
-    Name = "The One Who Make Me Smile Every Time"
+    Name = "The One Who Make Me Smile Every Time :)"
 })
 
 Tab:AddButton({
@@ -3018,7 +3018,7 @@ Tab:AddButton({
     Callback = function()
         setclipboard("👉 Little ❤️ Cookies 👈")
         OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Name = "Projects Cookies 🍪 || Fuvva Message🌐",
             Content = "👉 Little ❤️ Cookies 👈",
             Image = "rbxassetid://11821088983",
             Time = 5
