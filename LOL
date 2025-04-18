@@ -541,7 +541,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Caducus" (Epic),
+    Name = "Caducus (Epic)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/GhG4RVSj"))();
         OrionLib:MakeNotification({
