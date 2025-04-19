@@ -2869,7 +2869,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "The Sun",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/1NhjRART"))():
+        loadstring(game:HttpGet("https://pastebin.com/raw/1NhjRART"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -2895,7 +2895,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Hungry Noob",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/ZFDmEwis"))():
+        loadstring(game:HttpGet("https://pastebin.com/raw/ZFDmEwis"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -2986,7 +2986,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Chips",
     Callback = function()
-        loadstring(game:httpget("https://pastebin.com/raw/aime0d91"))():
+        loadstring(game:httpget("https://pastebin.com/raw/aime0d91"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
