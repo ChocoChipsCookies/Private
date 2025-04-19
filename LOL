@@ -2424,6 +2424,19 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "Hollow Purple",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Tool/refs/heads/main/Temu%20Hollow%20Purple.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Forcefield",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Tool/refs/heads/main/Forcefield"))()
