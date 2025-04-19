@@ -99,10 +99,11 @@ local Section = Tab:AddSection({
     Name = "Update Log"
 })
 
-Tab:AddParagraph("New Update !","New Update to [2.5.0] !")
+Tab:AddParagraph("New Update !","New Update to [3.5.9] !")
 Tab:AddLabel("Add a new tab for a real Server Side Script!")
+Tab:AddLabel("Add new NPC/Dummy Script!")
 Tab:AddLabel("Add new gui!")
-Tab:AddLabel("Add new Script")
+Tab:AddLabel("Add new Script!")
 
 -- Admin --
 local Tab = Window:MakeTab({
@@ -434,7 +435,35 @@ Tab:AddButton({
 
 Tab:AddParagraph("↑ Virtual Keyboard ↑","If you on a mobile and don't have PC and Keyboard, you can actually use this Virtual Keyboard Script, for a better when using Script!")
 
-Tab:AddLabel("↓ R6 Script! ↓")
+Tab:AddButton({
+    Name = "SCP-096",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/YvbYNWuF"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "SCP-049",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/zSYTJpfs"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddParagraph("↑ NPC/Dummy! ↑","We're add a new NPC/Dummy Script, Now you can test the power dan damage of all script!")
+
+Tab:AddLabel("↓ Script ↓")
 
 Tab:AddButton({
     Name = "Archangel (NEED A GOOD PHONE TO WORK SMOOTHLY!)",
@@ -2790,7 +2819,7 @@ Tab:AddButton({
 
 Tab:AddLabel("Credits To Slicer [Owner of All Gears/Tools]")
 
--- Tools/Gears --
+-- SS Script --
 local Tab = Window:MakeTab({
     Name = "SS Script",
     Icon = "rbxassetid://124159074947754",
@@ -2802,19 +2831,71 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > SS Script <--","This is real Server Side Script, So you need Server Side Games to make it Working")
-Tab:AddLabel("Total SS Script : 46")
+Tab:AddLabel("Total SS Script : 92")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct SS Script Working : 46 🟢","Correct SS Script Not Working : 0 🔴")
+Tab:AddParagraph("Correct SS Script Working : 92 🟢","Correct SS Script Not Working : 0 🔴")
 Tab:AddLabel("Credits To Owner of SS Script")
 
 local Section = Tab:AddSection({
-    Name = "Popular in 2016"
+    Name = "Popular in 2014 - 2018"
+})
+
+Tab:AddButton({
+    Name = "Xester the Card Master",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/4D8DquSu"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
 })
 
 Tab:AddButton({
     Name = "Duel Ultima",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/ZC7Ez6N0"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "The Sun",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/1NhjRART"))():
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Noob Bat",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/0hpJ3LwQ"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Hungry Noob",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/ZFDmEwis"))():
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -2877,6 +2958,19 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "Big Daddy",
+    Callback = function()
+        loadstring(game:httpget("https://pastebin.com/raw/pjF5JnSw"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Macho Man",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/7qESLGKz"))()
@@ -2890,9 +2984,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Noob Bat",
+    Name = "Chips",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/0hpJ3LwQ"))()
+        loadstring(game:httpget("https://pastebin.com/raw/aime0d91"))():
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -2958,19 +3052,6 @@ Tab:AddButton({
     Name = "Creeper",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/qh8PsbBc"))();
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "Mafia",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/B7R6kYAU"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3089,6 +3170,32 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "Dragon Slayer",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/SBtKU3xP"))():
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Centurion",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/aZXKqT0D"))():
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Anime Trap Gun",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/cZjThGa2"))();
@@ -3102,9 +3209,74 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "Mafia",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/B7R6kYAU"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Reaper Skeleton",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/E6KcrvRw"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Neko Knuckles",
+    Callback = function()
+        loadstring(game:httpget("https://pastebin.com/raw/XSLtk3Gg"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Skull Gauntlet",
+    Callback = function()
+        loadstring(game:httpget("https://pastebin.com/raw/j5YdkwiR"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Ryuneko",
+    Callback = function()
+        loadstring(game:httpget("https://pastebin.com/raw/VrzidbK4"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Stranger",
+    Callback = function()
+        loadstring(game:httpget("https://pastebin.com/raw/jvQxG1TR"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3193,9 +3365,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "Arstotzkan Gun",
     Callback = function()
-        
+        loadstring(game:httpget("https://pastebin.com/raw/DXLxT0rg"))():
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3206,9 +3378,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "Burning Hope",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://pastebin.com/raw/StgvhTTz"))():
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3730,9 +3902,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "Ink Bendy",
     Callback = function()
-        
+        loadstring(game:httpget("https://pastebin.com/raw/EDfTz5DK"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3743,9 +3915,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "Mario Maker",
     Callback = function()
-        
+        loadstring(game:httpget("https://pastebin.com/raw/SaRg2JPV"))():
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3756,9 +3928,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "Star Platinum",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://pastebin.com/raw/jxUjRwt6"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3769,9 +3941,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "Pineapple",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://pastebin.com/raw/UkHXZtNs"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3782,9 +3954,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "Chara",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://pastebin.com/raw/tFz3ETPa"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3795,9 +3967,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "Mario Shooter",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://pastebin.com/raw/BMhRWEkX"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3808,9 +3980,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "Body Gaurds v2",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://pastebin.com/raw/Bt7UZNGN"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3821,9 +3993,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "Minecraft Block",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://pastebin.com/raw/q9cJtFj9"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3834,9 +4006,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "Cowboy",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://pastebin.com/raw/r6VLwbnd"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3847,9 +4019,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "Piano",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://pastebin.com/raw/VhMXiaWp"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3860,35 +4032,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "",
+    Name = "Skull Demon ",
     Callback = function()
-        
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "",
-    Callback = function()
-        
-        OrionLib:MakeNotification({
-            Name = "Projects Cookies 🍪 || Creator Message🌐",
-            Content = "Successfully executed!",
-            Image = "rbxassetid://7733993369",
-            Time = 3
-        })
-    end    
-})
-
-Tab:AddButton({
-    Name = "",
-    Callback = function()
-        
+        loadstring(game:httpget("https://pastebin.com/raw/k4eUKsb1"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
