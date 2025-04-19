@@ -3172,7 +3172,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Dragon Slayer",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/SBtKU3xP"))():
+        loadstring(game:HttpGet("https://pastebin.com/raw/SBtKU3xP"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3185,7 +3185,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Centurion",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/aZXKqT0D"))():
+        loadstring(game:HttpGet("https://pastebin.com/raw/aZXKqT0D"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3367,7 +3367,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Arstotzkan Gun",
     Callback = function()
-        loadstring(game:httpget("https://pastebin.com/raw/DXLxT0rg"))():
+        loadstring(game:httpget("https://pastebin.com/raw/DXLxT0rg"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3380,7 +3380,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Burning Hope",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/StgvhTTz"))():
+        loadstring(game:HttpGet("https://pastebin.com/raw/StgvhTTz"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -3917,7 +3917,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Mario Maker",
     Callback = function()
-        loadstring(game:httpget("https://pastebin.com/raw/SaRg2JPV"))():
+        loadstring(game:httpget("https://pastebin.com/raw/SaRg2JPV"))();
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
