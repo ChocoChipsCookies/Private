@@ -2822,7 +2822,7 @@ Tab:AddLabel("Credits To Slicer [Owner of All Gears/Tools]")
 -- SS Script --
 local Tab = Window:MakeTab({
     Name = "SS Script",
-    Icon = "rbxassetid://124159074947754",
+    Icon = "rbxassetid://16056211193",
     PremiumOnly = false
 })
 
@@ -4909,7 +4909,7 @@ Tab:AddButton({
 -- Logo --
 local Tab = Window:MakeTab({
     Name = "Inject Logo",
-    Icon = "rbxassetid://",
+    Icon = "rbxassetid://12937220384",
     PremiumOnly = false
 })
 
