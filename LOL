@@ -2197,9 +2197,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddParagraph("-- > Tools/Gears <--","So Epic LOL")
-Tab:AddLabel("Total Tools/Gears : 46")
+Tab:AddLabel("Total Tools/Gears : 54")
 Tab:AddLabel("Status : 🟢")
-Tab:AddParagraph("Correct Tools/Gears Working : 46 🟢","Correct Tools/Gears Not Working : 0 🔴")
+Tab:AddParagraph("Correct Tools/Gears Working : 54 🟢","Correct Tools/Gears Not Working : 0 🔴")
 Tab:AddLabel("Credits To Slicer [Owner of All Gears/Tools]")
 
 Tab:AddButton({
@@ -2320,9 +2320,35 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "Tptool",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Teleport-Tool-27419"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Torch v3",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Tool/refs/heads/main/Torch%20V3"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "BoomBox",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/5nnPzzjV"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -2411,9 +2437,35 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "flashlight",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Figure's-Library-Best-flashlight-script-24691"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Poison",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/0TnfRMsr"))();
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Freaky Cola",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fake-tool-maker-29064"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
@@ -2821,6 +2873,32 @@ Tab:AddButton({
     Name = "Regen Coil",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Tool/refs/heads/main/Regen%20Coil"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Gravity Coil",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/RNa8enhG"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
+    Name = "Speed Coil",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/F111UruK"))()
         OrionLib:MakeNotification({
             Name = "Projects Cookies 🍪 || Creator Message🌐",
             Content = "Successfully executed!",
