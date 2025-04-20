@@ -1233,6 +1233,19 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "Nebula Staff",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/CZZJqf0s"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Nitrite",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/eiXnvH5f"))();
