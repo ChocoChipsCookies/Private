@@ -1,7 +1,10 @@
 -- Load Data --
 print("Load Gui...")
+wait(1)
 print("Load Script...")
+wait(1)
 print("Load Local Data...")
+wait(1)
 print("Load Completed...[100%]")
 print("Successfully executed, Projects Cookies 🍪 || Private Version 🌐 [Gen 2].")
 print("")
@@ -18,7 +21,50 @@ print("---------->Team Cookies 🍪🌐<---------")
 print("---------------------------------------")
 print("[The One Who Make Me Smile Everytime🙂]")
 print("------------->Fuvv4_w1nnn<------------")
+wait(2)
 
+local H = Instance.new("Hint")
+H.Parent = Workspace
+H.Text = "Projects Cookies 🍪 || Private Version [Gen 2] 🌐"
+wait(5)
+H:Remove()
+
+local H = Instance.new("Hint")
+H.Parent = Workspace
+H.Text = "Execute in 5"
+wait(1)
+H:Remove()
+
+local H = Instance.new("Hint")
+H.Parent = Workspace
+H.Text = "Execute in 4"
+wait(1)
+H:Remove()
+
+local H = Instance.new("Hint")
+H.Parent = Workspace
+H.Text = "Execute in 3"
+wait(1)
+H:Remove()
+
+local H = Instance.new("Hint")
+H.Parent = Workspace
+H.Text = "Execute in 2"
+wait(1)
+H:Remove()
+
+local H = Instance.new("Hint")
+H.Parent = Workspace
+H.Text = "Execute in 1"
+wait(1)
+H:Remove()
+
+local H = Instance.new("Hint")
+H.Parent = Workspace
+H.Text = "Have a Nice Day!"
+wait(1)
+H:Remove()
+wait(2)
 -- Orion Library --
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DenDenZZZ/Orion-UI-Library/refs/heads/main/source')))()
 -- Make Main Tab --
