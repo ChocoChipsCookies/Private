@@ -1,10 +1,10 @@
 -- Load Data --
 print("Load Gui...")
-wait(1)
+wait(3)
 print("Load Script...")
-wait(1)
+wait(3)
 print("Load Local Data...")
-wait(1)
+wait(3)
 print("Load Completed...[100%]")
 print("Successfully executed, Projects Cookies 🍪 || Private Version 🌐 [Gen 2].")
 print("")
