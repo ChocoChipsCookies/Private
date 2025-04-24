@@ -2725,6 +2725,19 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
+    Name = "Classic Gear v4",
+    Callback = function()
+        Loadstring(game:HttpGet("https://pastebin.com/raw/tyCQyZDL"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
+
+Tab:AddButton({
     Name = "Epic Tools Giver v2",
     Callback = function()
         loadstring(game:HttpGet("https://pastefy.app/bfyJbBkd/raw"))()
@@ -2815,6 +2828,18 @@ Tab:AddButton({
     end    
 })
 
+Tab:AddButton({
+    Name = "Fake Gamepass v3",
+    Callback = function()
+        Loadstring(game:HttpGet("https://pastebin.com/raw/8zy7NxUD"))()
+        OrionLib:MakeNotification({
+            Name = "Projects Cookies 🍪 || Creator Message🌐",
+            Content = "Successfully executed!",
+            Image = "rbxassetid://7733993369",
+            Time = 3
+        })
+    end    
+})
 
 Tab:AddButton({
     Name = "Fake Gamepass v2",
